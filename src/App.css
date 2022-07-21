@@ -62,6 +62,36 @@ button {
   padding: 90px 10px 0px 10px;
 }
 
+.sidebar {
+  color: var(--force-dark) !important;
+  background-color: var(--force-light) !important;
+  transition: all .5s !important;
+  position: fixed;
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.border {
+  background-image: linear-gradient(to right, #ff981b, transparent);
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 12000;
+}
+
+.border-reverse {
+  background-image: linear-gradient(to left, #ff981b, transparent);
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 12000;
+}
+
 .link:hover {
   color: rgba(214, 134, 36, 1) !important;
 }

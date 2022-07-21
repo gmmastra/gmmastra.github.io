@@ -18,6 +18,13 @@ h1 {
   margin: 0px;
 }
 
+h2 {
+  font-family: 'New Rocker', cursive;
+  font-size: 40px;
+  line-height: 80px;
+  margin: 0px;
+}
+
 .drawer-item {
   font-family: 'Cinzel', serif !important;
 }
