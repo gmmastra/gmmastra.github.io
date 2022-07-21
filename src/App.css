@@ -1,38 +1,86 @@
+:root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: #d68624;
+  --accent: #74a525;
+  --force-dark: #141414;
+  --force-light: white;
+}
+
+[data-theme='dark'] {
+  --background: #141414;
+  --text-primary: white;
+  --text-secondary: #d68624;
+  --accent: grey;
+}
+
 .App {
-  text-align: center;
+  color: var(--text-primary);
+  background-color: var(--background);
+  padding: 20px;
+  height: calc(100vh - 80px);
+  transition: all .5s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  color: var(--text-primary);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span {
+  color: var(--force-dark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 0px;
+  transition: all .5s;
 }
 
-.App-link {
-  color: #61dafb;
+.theme-element {
+  color: var(--text-primary) !important;
+  border-color: var(--text-primary) !important;
+  transition: all .5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.theme-force {
+  color: var(--force-dark) !important;
+  background-color: var(--force-light) !important;
+  transition: all .5s !important;
+}
+
+.drawer-item {
+  text-decoration: none;
+  display: block !important;
+  width: 250px;
+  padding: 10px !important;
+  background-color: var(--force-light) !important;
+  transition: all .5s !important;
+}
+
+.drawer {
+  padding: 90px 10px 0px 10px;
+}
+
+.link:hover {
+  color: rgba(214, 134, 36, 1) !important;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+
+::-webkit-scrollbar-track {
+  border: 7.9px solid var(--force-light);
+  background-color: #d68624;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 6px solid;
+  border-color: var(--force-light);
+  border-radius: 75px;
+  background-color: var(--force-dark);
+  min-height: 24px;
+  min-width: 24px;
 }
