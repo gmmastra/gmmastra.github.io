@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f48eb3df.css",
-    "main.js": "/static/js/main.ebf14be3.js",
+    "main.css": "/static/css/main.ac5abea6.css",
+    "main.js": "/static/js/main.27e6687a.js",
     "static/media/image5.png": "/static/media/image5.439825d552da0ae20b10.png",
     "static/media/image4.png": "/static/media/image4.279bd49b2e418cad69f1.png",
     "static/media/image1.jpg": "/static/media/image1.8643b38b9f7629b2cd1c.jpg",
@@ -10,17 +10,18 @@
     "static/media/image2.jpg": "/static/media/image2.0cc3ecf6e2e07446d79b.jpg",
     "static/media/image8.png": "/static/media/image8.3c5c14aa5797d199e1cd.png",
     "static/media/image7.png": "/static/media/image7.c930d7506c5eeb1ce340.png",
+    "static/media/Pieces of Eight.ttf": "/static/media/Pieces of Eight.fd47ddffacaa289c0923.ttf",
     "static/media/image3.jpg": "/static/media/image3.1d37f089cb039a10cf6b.jpg",
     "static/media/image6.jpg": "/static/media/image6.2db669ba532382a63839.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.f48eb3df.css.map": "/static/css/main.f48eb3df.css.map",
-    "main.ebf14be3.js.map": "/static/js/main.ebf14be3.js.map"
+    "main.ac5abea6.css.map": "/static/css/main.ac5abea6.css.map",
+    "main.27e6687a.js.map": "/static/js/main.27e6687a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48eb3df.css",
-    "static/js/main.ebf14be3.js"
+    "static/css/main.ac5abea6.css",
+    "static/js/main.27e6687a.js"
   ]
 }
