@@ -19,6 +19,7 @@ export function NavBar(props) {
 
     // Loads correct color from remembered mode
     useEffect(() => {
+        document.body.classList.add('theme-force');
         const light = (props.theme === 'light' ? 'white' : '#141414');
         const dark = (props.theme === 'light' ? '#141414' : 'white');
         root.style.setProperty("--force-dark", dark);
@@ -48,7 +49,7 @@ export function NavBar(props) {
                         {/* Mobile Menu */}
                         <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
                             <Button onClick={toggleDrawer(true)}><MenuIcon className="theme-element" /></Button>
-                            <SwipeableDrawer open={state} onClose={toggleDrawer(false)} classes={{ paper: "theme-force drawer" }}>
+                            <SwipeableDrawer open={state} onClose={toggleDrawer(false)} anchor="left" classes={{ paper: "theme-force drawer" }}>
                                 <Button onClick={toggleDrawer(false)} component={Link} to="/" className="drawer-item">
                                     <span>HOME</span>
                                 </Button>

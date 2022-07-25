@@ -28,7 +28,7 @@ export function Home(props) {
         },
         mobile: {
             breakpoint: { max: 664, min: 0 },
-            items: 3
+            items: 2
         }
     };
 
@@ -40,7 +40,7 @@ export function Home(props) {
                         swipeable={false}
                         draggable={false}
                         autoPlay={true}
-                        autoPlaySpeed={6000}
+                        autoPlaySpeed={4000}
                         infinite
                         responsive={responsive}
                         showDots={false}
@@ -77,7 +77,7 @@ export function Home(props) {
                         swipeable={false}
                         draggable={false}
                         autoPlay={true}
-                        autoPlaySpeed={6000}
+                        autoPlaySpeed={4000}
                         infinite
                         responsive={responsive}
                         showDots={false}

@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { styled } from "@mui/material/styles";
 import { Box, Tab, Tabs, Typography } from '@mui/material';
 import Slide from '@mui/material/Slide';
 
-{/* Navigation tabs */ }
+/* Navigation tabs */
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
 
@@ -32,10 +32,11 @@ function a11yProps(index) {
     };
 }
 
-{/* Custom tabs */ }
+/* Custom tabs */
+// eslint-disable-next-line no-empty-pattern
 const StyledTab = styled((props) => (
     <Tab disableRipple {...props} />
-))(({ }) => ({
+))(({ style }) => ({
     marginRight: '-10px',
     marginLeft: '5px',
     display: 'flex',
@@ -63,11 +64,11 @@ export function Artwork(props) {
     const mediumViewport = useMediaQuery('(min-width:900px)');
 
     return (
-        <div style={{ display: 'flex' }} class="theme-force">
+        <div style={{ display: 'flex' }}>
 
             {/* Desktop Menu */}
             <Box class="sidebar">
-                <Box sx={{ width: { xs: '140vw', md: 'auto' }, display: 'flex', justifyContent: 'center' }}>
+                <Box sx={{ width: { xs: '95%', md: 'auto' }, display: 'flex', justifyContent: 'center' }}>
                     <Slide direction="right" in={true} mountOnEnter unmountOnExit>
                         <Tabs
                             orientation={mediumViewport ? "vertical" : "horizontal"}
@@ -91,16 +92,16 @@ export function Artwork(props) {
                 {/* Tab contents */}
                 <Box style={{ flexGrow: 1 }} >
                     <TabPanel value={value} index={0} class="theme-force sidebar-item">
-                        <h2> GALLERY </h2>
+                        
                     </TabPanel>
                     <TabPanel value={value} index={1} class="theme-force sidebar-item">
-                        <h2> COMMISSIONS </h2>
+                        
                     </TabPanel>
                     <TabPanel value={value} index={2} class="theme-force sidebar-item">
-                        <h2> ELEMENTARY STEM JOURNAL </h2>
+                        
                     </TabPanel>
                     <TabPanel value={value} index={3} class="theme-force sidebar-item">
-                        <h2> ARTFIGHT </h2>
+                        
                     </TabPanel>
                 </Box>
 

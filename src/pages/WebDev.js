@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { styled } from "@mui/material/styles";
 import { Box, Tab, Tabs, Typography } from '@mui/material';
 import Slide from '@mui/material/Slide';
 
-{/* Navigation tabs */ }
+/* Navigation tabs */
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
 
@@ -32,10 +32,10 @@ function a11yProps(index) {
     };
 }
 
-{/* Custom tabs */ }
+/* Custom tabs */
 const StyledTab = styled((props) => (
     <Tab disableRipple {...props} />
-))(({ }) => ({
+))(({ style }) => ({
     marginRight: '-10px',
     marginLeft: '5px',
     display: 'flex',

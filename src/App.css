@@ -18,7 +18,11 @@
   color: var(--text-primary);
   background-color: var(--background);
   padding: 20px;
-  height: calc(100vh - 80px);
+  transition: all .5s;
+}
+
+body {
+  background-color: var(--background);
   transition: all .5s;
 }
 
@@ -86,7 +90,7 @@ button {
   background-image: linear-gradient(to left, #ff981b, transparent);
   height: 5px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   z-index: 12000;
