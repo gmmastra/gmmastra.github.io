@@ -1,27 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac5abea6.css",
-    "main.js": "/static/js/main.27e6687a.js",
-    "static/media/image5.png": "/static/media/image5.439825d552da0ae20b10.png",
-    "static/media/image4.png": "/static/media/image4.279bd49b2e418cad69f1.png",
-    "static/media/image1.jpg": "/static/media/image1.8643b38b9f7629b2cd1c.jpg",
-    "static/media/image10.png": "/static/media/image10.11b0be7d5753de279c64.png",
-    "static/media/image9.png": "/static/media/image9.af585b3c824f87cbba98.png",
-    "static/media/image2.jpg": "/static/media/image2.0cc3ecf6e2e07446d79b.jpg",
-    "static/media/image8.png": "/static/media/image8.3c5c14aa5797d199e1cd.png",
-    "static/media/image7.png": "/static/media/image7.c930d7506c5eeb1ce340.png",
+    "main.css": "/static/css/main.22244e1d.css",
+    "main.js": "/static/js/main.a898974d.js",
+    "static/media/gmmastra_resume.pdf": "/static/media/gmmastra_resume.ed0b49e3fb0decd0b3b5.pdf",
     "static/media/Pieces of Eight.ttf": "/static/media/Pieces of Eight.fd47ddffacaa289c0923.ttf",
-    "static/media/image3.jpg": "/static/media/image3.1d37f089cb039a10cf6b.jpg",
-    "static/media/image6.jpg": "/static/media/image6.2db669ba532382a63839.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.ac5abea6.css.map": "/static/css/main.ac5abea6.css.map",
-    "main.27e6687a.js.map": "/static/js/main.27e6687a.js.map"
+    "main.22244e1d.css.map": "/static/css/main.22244e1d.css.map",
+    "main.a898974d.js.map": "/static/js/main.a898974d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac5abea6.css",
-    "static/js/main.27e6687a.js"
+    "static/css/main.22244e1d.css",
+    "static/js/main.a898974d.js"
   ]
 }
