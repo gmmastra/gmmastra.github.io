@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react';
 import { AppBar, Box, Button, Divider, SwipeableDrawer } from '@mui/material';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import Slide from '@mui/material/Slide';
 import MenuIcon from '@mui/icons-material/Menu';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import BubbleChartIcon from '@mui/icons-material/BubbleChart';
+import resume from '../assets/gmmastra_resume.pdf';
 
 export function NavBar(props) {
 
@@ -62,14 +63,15 @@ export function NavBar(props) {
                                 <Button onClick={toggleDrawer(false)} component={Link} to="/gamedev" className="drawer-item">
                                     <span>GAME DEVELOPMENT</span>
                                 </Button>
-                                <Divider sx={{ m: 1 }} />
-                                <Button onClick={toggleDrawer(false)} component={Link} to="/gamedev" className="drawer-item">
-                                    <span>RESUMÉ</span>
-                                </Button>
+                                <Divider sx={{ m: 1 }} className="theme-force" />
+                                <a href={resume} without rel="noopener noreferrer" target="_blank" className="link">
+                                    <Button onClick={toggleDrawer(false)} className="drawer-item" style={{ textAlign: 'left' }}>
+                                        <span>RESUMÉ</span>
+                                    </Button>
+                                </a>
                                 <Button onClick={toggleDrawer(false)} component={Link} to="/gamedev" className="drawer-item">
                                     <span>CONTACT</span>
                                 </Button>
-                                <Divider sx={{ m: 1 }} />
                                 <Box className="theme-force link" style={{ padding: '0 10px 110px 10px', cursor: 'pointer', marginTop: 'auto' }}>
                                     {props.theme === 'dark' && <DarkModeIcon onClick={changeMode} />}
                                     {props.theme === 'light' && <LightModeIcon onClick={changeMode} />}
@@ -98,8 +100,10 @@ export function NavBar(props) {
                                 {props.theme === 'light' && <LightModeIcon onClick={changeMode} className="theme-element link" style={{ margin: '10px', cursor: 'pointer' }} />}
                                 {props.theme === 'dark' && <DarkModeIcon onClick={changeMode} className="theme-element link" style={{ margin: '10px', cursor: 'pointer' }} />}
 
-                                <Box component={Link} to="/#" sx={{ m: 1, textDecoration: 'none' }}>
-                                    <span className="link">RESUMÉ</span>
+                                <Box sx={{ m: 1 }}>
+                                    <a href={resume} without rel="noopener noreferrer" target="_blank" className="link">
+                                        <span className="link">RESUMÉ</span>
+                                    </a>
                                 </Box>
                                 <Box component={Link} to="/#" sx={{ m: 1, textDecoration: 'none' }}>
                                     <span className="link">CONTACT</span>

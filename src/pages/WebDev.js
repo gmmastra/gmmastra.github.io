@@ -67,7 +67,7 @@ export function WebDev(props) {
 
             {/* Desktop Menu */}
             <Box class="sidebar">
-                <Box sx={{ width: { xs: '140vw', md: 'auto' }, display: 'flex', justifyContent: 'center' }}>
+                <Box sx={{ width: { xs: '95%', md: 'auto' }, display: 'flex', justifyContent: 'center' }}>
                     <Slide direction="right" in={true} mountOnEnter unmountOnExit>
                         <Tabs
                             orientation={mediumViewport ? "vertical" : "horizontal"}
@@ -89,10 +89,10 @@ export function WebDev(props) {
                 {/* Tab contents */}
                 <Box style={{ flexGrow: 1 }} >
                     <TabPanel value={value} index={0} class="theme-force sidebar-item">
-                        <h2> WORK & SCHOOL </h2>
+                        <p> Under construction </p>
                     </TabPanel>
                     <TabPanel value={value} index={1} class="theme-force sidebar-item">
-                        <h2> PERSONAL </h2>
+                        <p> Under construction </p>
                     </TabPanel>
                 </Box>
 

@@ -3,16 +3,6 @@ import { Box } from '@mui/material';
 import { Grow, Slide } from '@mui/material';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import image1 from "../assets/images/carousel/image1.jpg";
-import image2 from "../assets/images/carousel/image2.jpg";
-import image3 from "../assets/images/carousel/image3.jpg";
-import image4 from "../assets/images/carousel/image4.png";
-import image5 from "../assets/images/carousel/image5.png";
-import image6 from "../assets/images/carousel/image6.jpg";
-import image7 from "../assets/images/carousel/image7.png";
-import image8 from "../assets/images/carousel/image8.png";
-import image9 from "../assets/images/carousel/image9.png";
-import image10 from "../assets/images/carousel/image10.png";
 
 export function Home(props) {
 
@@ -49,11 +39,11 @@ export function Home(props) {
                         customTransition={'transform 600ms ease-in-out'}
                         pauseOnHover={false}
                     >
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image1})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image2})`, backgroundSize: '200%', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image3})`, backgroundSize: '140%', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image4})`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image5})`, backgroundSize: '140%', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/pyDyNdOh.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/PYZ2eHlh.jpg)`, backgroundSize: '200%', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/NJCNlknh.jpg)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/VaowLEch.png)`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/TmVOAOdh.png)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
                     </Carousel>
                 </div>
             </Grow>
@@ -86,11 +76,11 @@ export function Home(props) {
                         customTransition={'transform 600ms ease-in-out'}
                         pauseOnHover={false}
                     >
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image6})`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image7})`, backgroundSize: '260%', backgroundPosition: '20% 40%' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image8})`, backgroundSize: '140%', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image9})`, backgroundSize: '140%', backgroundPosition: '25% 25%' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(${image10})`, backgroundSize: '200%', backgroundPosition: '30% 25%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/OO5EfIbh.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/GzWAgcHh.png)`, backgroundSize: '260%', backgroundPosition: '20% 40%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/t4jjhqfh.png)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/mBydfgCh.png)`, backgroundSize: '140%', backgroundPosition: '25% 25%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/39Y5K5fh.png)`, backgroundSize: '200%', backgroundPosition: '30% 25%' }} />
                     </Carousel>
                 </div>
             </Grow>

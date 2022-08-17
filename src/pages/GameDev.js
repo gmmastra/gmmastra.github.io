@@ -4,7 +4,7 @@ export function GameDev(props) {
 
     return (
         <div>
-            <p> Game Development </p>
+            <p> Under Construction </p>
         </div>
     );
 }

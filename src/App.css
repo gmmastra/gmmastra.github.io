@@ -1,3 +1,5 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 :root {
   --background: white;
   --text-primary: black;
@@ -31,6 +33,7 @@ p {
 }
 
 span {
+  font-family: 'Cormorant Garamond', serif;
   color: var(--force-dark);
 }
 
@@ -49,6 +52,7 @@ button {
 
 .theme-force {
   color: var(--force-dark) !important;
+  border-color: var(--force-dark) !important;
   background-color: var(--force-light) !important;
   transition: all .5s !important;
 }
@@ -96,8 +100,35 @@ button {
   z-index: 12000;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .link:hover {
   color: rgba(214, 134, 36, 1) !important;
+}
+
+.link:visited {
+  color: var(--text-primary);
+}
+
+.pswp__counter {
+  display: none;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 40px;
+  width: 20px;
+}
+
+.image-gallery-left-nav:hover,
+.image-gallery-right-nav:hover {
+  color: #ff981b !important;
+}
+
+.image-gallery-content {
+  width: 420px;
 }
 
 ::-webkit-scrollbar {
