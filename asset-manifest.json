@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.22244e1d.css",
-    "main.js": "/static/js/main.a898974d.js",
+    "main.css": "/static/css/main.a6127022.css",
+    "main.js": "/static/js/main.f18ee000.js",
     "static/media/gmmastra_resume.pdf": "/static/media/gmmastra_resume.ed0b49e3fb0decd0b3b5.pdf",
     "static/media/Pieces of Eight.ttf": "/static/media/Pieces of Eight.fd47ddffacaa289c0923.ttf",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.22244e1d.css.map": "/static/css/main.22244e1d.css.map",
-    "main.a898974d.js.map": "/static/js/main.a898974d.js.map"
+    "main.a6127022.css.map": "/static/css/main.a6127022.css.map",
+    "main.f18ee000.js.map": "/static/js/main.f18ee000.js.map"
   },
   "entrypoints": [
-    "static/css/main.22244e1d.css",
-    "static/js/main.a898974d.js"
+    "static/css/main.a6127022.css",
+    "static/js/main.f18ee000.js"
   ]
 }
