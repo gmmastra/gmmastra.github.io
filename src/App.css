@@ -35,6 +35,7 @@ p {
 span {
   font-family: 'Cormorant Garamond', serif;
   color: var(--force-dark);
+  font-size: 17px;
 }
 
 button {
@@ -98,6 +99,52 @@ button {
   bottom: 0px;
   left: 0px;
   z-index: 12000;
+}
+
+.game-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin: 40px 0 40px 0;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.game-button,
+.game-button:visited {
+  border: 1px solid var(--force-dark) !important;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 1em 0;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.game-button:hover,
+.game-button:visited:hover {
+  background-color: var(--force-dark);
+  color: var(--background);
+}
+
+.game-button::after {
+  display: inline-block;
+  padding-left: 8px;
+  content: "\0279E";
+  transition: transform 0.3s ease-out;
+}
+
+.game-button:hover::after {
+  transform: translateX(4px);
+}
+
+.contactInput, .contactInputLabel {
+  color: var(--text-primary) !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused, .MuiOutlinedInput-notchedOutline {
+  border-color: var(--text-primary) !important;
 }
 
 .link {

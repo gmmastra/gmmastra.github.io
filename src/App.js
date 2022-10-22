@@ -7,6 +7,7 @@ import { Home } from "./pages/Home";
 import { Artwork } from "./pages/Artwork";
 import { WebDev } from "./pages/WebDev";
 import { GameDev } from "./pages/GameDev";
+import { Contact } from "./pages/Contact";
 
 export default function App() {
 
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="/artwork" component={Artwork} />
             <Route path="/webdev" component={WebDev} />
             <Route path="/gamedev" component={GameDev} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </div>
       </div>

@@ -463,9 +463,8 @@ export function Artwork(props) {
                             }}
                             sx={{ borderRight: { xs: 0, md: 1 }, borderBottom: { xs: 1, md: 0 }, padding: { xs: '20px 0px 0px 0px', md: '50px 0px 0px 10px' }, height: { xs: 0, md: '80vh' } }}>
                             <StyledTab label="GALLERY" {...a11yProps(0)} />
-                            <StyledTab label="COMMISSIONS" {...a11yProps(1)} />
-                            <StyledTab label="ESJ" {...a11yProps(2)} />
-                            <StyledTab label="ARTFIGHT" {...a11yProps(3)} />
+                            <StyledTab label="ESJ" {...a11yProps(1)} />
+                            <StyledTab label="ARTFIGHT" {...a11yProps(2)} />
                         </Tabs>
                     </Slide>
                 </Box>
@@ -479,13 +478,8 @@ export function Artwork(props) {
                             <ArtGallery images={gallery} width={230} height={230} />
                         </TabPanel>
 
-                        {/* Commissions */}
-                        <TabPanel value={value} index={1} class="theme-force sidebar-item">
-                            <span>Under Construction</span>
-                        </TabPanel>
-
                         {/* ESJ */}
-                        <TabPanel value={value} index={2} class="theme-force sidebar-item">
+                        <TabPanel value={value} index={1} class="theme-force sidebar-item">
                             <Grow in={true} timeout={600} mountOnEnter unmountOnExit>
                                 <div style={{ display: 'flex', justifyContent: esjView ? 'space-between' : 'center', flexWrap: 'wrap-reverse', alignContent: 'center', overflowWrap: 'break-word', padding: '20px 0 20px 0', width: '70vw' }}>
                                     <ImageGallery items={esjCovers} showThumbnails={false} showPlayButton={false} autoPlay={true} showFullscreenButton={false} />
@@ -512,7 +506,7 @@ export function Artwork(props) {
                         </TabPanel>
 
                         {/* Art Fight */}
-                        <TabPanel value={value} index={3} class="theme-force sidebar-item">
+                        <TabPanel value={value} index={2} class="theme-force sidebar-item">
                             <Slide direction="top" in={true} timeout={700} mountOnEnter unmountOnExit>
                                 <div>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', alignContent: 'center', overflowWrap: 'break-word', padding: '20px 0 20px 0' }}>

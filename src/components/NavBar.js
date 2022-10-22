@@ -69,12 +69,12 @@ export function NavBar(props) {
                                         <span>RESUMÉ</span>
                                     </Button>
                                 </a>
-                                <Button onClick={toggleDrawer(false)} component={Link} to="/gamedev" className="drawer-item">
+                                <Button onClick={toggleDrawer(false)} component={Link} to="/contact" className="drawer-item">
                                     <span>CONTACT</span>
                                 </Button>
                                 <Box className="theme-force link" style={{ padding: '0 10px 110px 10px', cursor: 'pointer', marginTop: 'auto' }}>
-                                    {props.theme === 'dark' && <DarkModeIcon onClick={changeMode} />}
-                                    {props.theme === 'light' && <LightModeIcon onClick={changeMode} />}
+                                    {props.theme === 'dark' && <LightModeIcon onClick={changeMode} />}
+                                    {props.theme === 'light' && <DarkModeIcon onClick={changeMode} />}
                                 </Box>
                             </SwipeableDrawer>
                         </Box>
@@ -97,15 +97,15 @@ export function NavBar(props) {
                             </Box>
 
                             <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                                {props.theme === 'light' && <LightModeIcon onClick={changeMode} className="theme-element link" style={{ margin: '10px', cursor: 'pointer' }} />}
-                                {props.theme === 'dark' && <DarkModeIcon onClick={changeMode} className="theme-element link" style={{ margin: '10px', cursor: 'pointer' }} />}
+                                {props.theme === 'light' && <DarkModeIcon onClick={changeMode} className="theme-element link" style={{ margin: '10px', cursor: 'pointer' }} />}
+                                {props.theme === 'dark' && <LightModeIcon onClick={changeMode} className="theme-element link" style={{ margin: '10px', cursor: 'pointer' }} />}
 
                                 <Box sx={{ m: 1 }}>
                                     <a href={resume} without rel="noopener noreferrer" target="_blank" className="link">
                                         <span className="link">RESUMÉ</span>
                                     </a>
                                 </Box>
-                                <Box component={Link} to="/#" sx={{ m: 1, textDecoration: 'none' }}>
+                                <Box component={Link} to="/contact" sx={{ m: 1, textDecoration: 'none' }}>
                                     <span className="link">CONTACT</span>
                                 </Box>
                             </Box>
