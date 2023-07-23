@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import useLocalStorage from 'use-local-storage';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { NavBar } from "./components/NavBar";
 import { Home } from "./pages/Home";
 import { Artwork } from "./pages/Artwork";
@@ -21,7 +21,7 @@ export default function App() {
   }
 
   return (
-    <Router>
+    <HashRouter>
       <div className="App" data-theme={theme}>
         <NavBar {...{ theme, switchTheme }} />
         <div className="content">
@@ -34,6 +34,6 @@ export default function App() {
           </Switch>
         </div>
       </div>
-    </Router>
+    </HashRouter>
   );
 };

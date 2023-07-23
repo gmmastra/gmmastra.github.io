@@ -39,11 +39,11 @@ export function Home(props) {
                         customTransition={'transform 600ms ease-in-out'}
                         pauseOnHover={false}
                     >
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/pyDyNdOh.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/PYZ2eHlh.jpg)`, backgroundSize: '200%', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/8czOc7k.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/a5OQA1M.png)`, backgroundSize: '130%', backgroundPosition: '75% 30%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/TmVOAOdh.png)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/NJCNlknh.jpg)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/VaowLEch.png)`, backgroundSize: 'cover', backgroundPosition: 'bottom' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/TmVOAOdh.png)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
                     </Carousel>
                 </div>
             </Grow>
@@ -51,7 +51,7 @@ export function Home(props) {
             <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', textAlign: { xs: 'center', md: 'left' } }}>
                 <Slide direction="right" in={true} timeout={1500} mountOnEnter unmountOnExit>
                     <Box sx={{ m: '3.5vw 0 3.5vw 0', paddingLeft: { xs: '0px', lg: '70px' }, width: { xs: '100%', md: 'fit-content' } }}>
-                        <h1>HI, I'M <br />GIANNA.</h1>
+                        <h1>HI, I'M <br />MAVERICK.</h1>
                     </Box>
                 </Slide>
                 <Slide direction="left" in={true} timeout={1500} mountOnEnter unmountOnExit>
@@ -78,9 +78,9 @@ export function Home(props) {
                     >
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/OO5EfIbh.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/GzWAgcHh.png)`, backgroundSize: '260%', backgroundPosition: '20% 40%' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/t4jjhqfh.png)`, backgroundSize: '140%', backgroundPosition: 'center' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/WQVzUIA.jpg)`, backgroundSize: '100%', backgroundPosition: '50% 40%' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/mBydfgCh.png)`, backgroundSize: '140%', backgroundPosition: '25% 25%' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/39Y5K5fh.png)`, backgroundSize: '200%', backgroundPosition: '30% 25%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/b5AFuqc.jpg)`, backgroundSize: '100%', backgroundPosition: '30% 25%' }} />
                     </Carousel>
                 </div>
             </Grow>

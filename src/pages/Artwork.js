@@ -60,6 +60,12 @@ const gallery =
         height: 1134,
     },
     {
+        src: "https://i.imgur.com/WQVzUIA.jpg",
+        thumbnail: "https://i.imgur.com/WQVzUIAm.jpg",
+        width: 2000,
+        height: 2000,
+    },
+    {
         src: "https://i.imgur.com/FyHAz0T.png",
         thumbnail: "https://i.imgur.com/FyHAz0Tm.png",
         width: 1180,
@@ -72,10 +78,23 @@ const gallery =
         height: 1792,
     },
     {
-        src: "https://i.imgur.com/pNAih2G.png",
-        thumbnail: "https://i.imgur.com/pNAih2Gm.png",
-        width: 1367,
-        height: 1307,
+        src: "https://i.imgur.com/qc2kxz4.jpg",
+        thumbnail: "https://i.imgur.com/qc2kxz4m.jpg",
+        width: 2272,
+        height: 1278,
+    },
+    {
+        src: "https://i.imgur.com/8czOc7k.jpg",
+        thumbnail: "https://i.imgur.com/8czOc7k.jpg",
+        width: 1664,
+        height: 2259,
+    },
+    {
+        src: "https://i.imgur.com/a5OQA1M.png",
+        thumbnail: "https://i.imgur.com/a5OQA1Mm.png",
+        width: 1508,
+        height: 1921,
+
     },
     {
         src: "https://i.imgur.com/1yrbj6f.jpg",
@@ -88,6 +107,12 @@ const gallery =
         thumbnail: "https://i.imgur.com/3UcMZHMm.png",
         width: 1617,
         height: 2078,
+    },
+    {
+        src: "https://i.imgur.com/vflmKpK.jpg",
+        thumbnail: "https://i.imgur.com/vflmKpKm.jpg",
+        width: 4242,
+        height: 3787,
     },
     {
         src: "https://i.imgur.com/T9TVq9Q.jpg",
@@ -148,30 +173,6 @@ const gallery =
         thumbnail: "https://i.imgur.com/orokj7ym.jpg",
         width: 2173,
         height: 2138,
-    },
-    {
-        src: "https://i.imgur.com/zpuBaEp.png",
-        thumbnail: "https://i.imgur.com/zpuBaEpm.png",
-        width: 297,
-        height: 663,
-    },
-    {
-        src: "https://i.imgur.com/ibUJyEP.png",
-        thumbnail: "https://i.imgur.com/ibUJyEPm.png",
-        width: 629,
-        height: 711,
-    },
-    {
-        src: "https://i.imgur.com/T5zBL3Z.png",
-        thumbnail: "https://i.imgur.com/T5zBL3Zm.png",
-        width: 692,
-        height: 642,
-    },
-    {
-        src: "https://i.imgur.com/sJXdkbK.jpg",
-        thumbnail: "https://i.imgur.com/sJXdkbKm.jpg",
-        width: 3592,
-        height: 2144,
     }]
 
 const esjCovers = [
@@ -321,46 +322,39 @@ const esj = [{
 
 const artfight =
     [{
-        src: "https://i.imgur.com/Y6KyXTw.png",
-        thumbnail: "https://i.imgur.com/11CSGgo.png",
-        width: 1306,
-        height: 1326,
-        caption: "Character by @CupidAiko"
+        src: "https://i.imgur.com/0cCXll1.jpg",
+        thumbnail: "https://i.imgur.com/4FlUbCj.png",
+        width: 1882,
+        height: 1958,
+        caption: "Character by @RainyArtist"
     },
     {
-        src: "https://i.imgur.com/PVHdK9B.png",
-        thumbnail: "https://i.imgur.com/m4s7NFY.png",
-        width: 1246,
-        height: 1492,
-        caption: "Character by @Lukitsune"
+        src: "https://i.imgur.com/gRcPsz7.png",
+        thumbnail: "https://i.imgur.com/QXXXj6R.png",
+        width: 1422,
+        height: 1924,
+        caption: "Character by @manhlerf"
     },
     {
-        src: "https://i.imgur.com/N4vIBBI.png",
-        thumbnail: "https://i.imgur.com/h8i4s53.png",
-        width: 1215,
-        height: 1578,
-        caption: "Character by @kritterkreachers"
+        src: "https://i.imgur.com/0glSSdo.png",
+        thumbnail: "https://i.imgur.com/W60ySUQ.png",
+        width: 1809,
+        height: 2371,
+        caption: "Character by @blackdeathlovr"
     },
     {
-        src: "https://i.imgur.com/RxIYlzS.png",
-        thumbnail: "https://i.imgur.com/q9OB30n.png",
-        width: 1333,
-        height: 1500,
-        caption: "Character by @bdknork"
+        src: "https://i.imgur.com/a5chukA.jpg",
+        thumbnail: "https://i.imgur.com/aEMzv9l.png",
+        width: 1623,
+        height: 2505,
+        caption: "Character by @Cotten"
     },
     {
-        src: "https://i.imgur.com/ZblPDg4.png",
-        thumbnail: "https://i.imgur.com/oTW5eWx.png",
-        width: 1040,
-        height: 1356,
-        caption: "Character by @spodereyes"
-    },
-    {
-        src: "https://i.imgur.com/iV0JPYN.png",
-        thumbnail: "https://i.imgur.com/zqwaq7F.png",
-        width: 846,
-        height: 1090,
-        caption: "Character by @Luna_Moon_"
+        src: "https://i.imgur.com/f4E3MCw.png",
+        thumbnail: "https://i.imgur.com/ncWpRqC.png",
+        width: 1649,
+        height: 1096,
+        caption: "Character by @CrowRa"
     },
     {
         src: "https://i.imgur.com/1UA3XrY.png",
@@ -377,27 +371,6 @@ const artfight =
         caption: "Character by @MinutesByMars"
     },
     {
-        src: "https://i.imgur.com/f4E3MCw.png",
-        thumbnail: "https://i.imgur.com/ncWpRqC.png",
-        width: 1649,
-        height: 1096,
-        caption: "Character by @CrowRa"
-    },
-    {
-        src: "https://i.imgur.com/urILHwt.png",
-        thumbnail: "https://i.imgur.com/lHRrvR2.png",
-        width: 1026,
-        height: 1478,
-        caption: "Character by @afamanii"
-    },
-    {
-        src: "https://i.imgur.com/Zaj3Zag.png",
-        thumbnail: "https://i.imgur.com/d1bL5zw.png",
-        width: 1474,
-        height: 964,
-        caption: "Character by @Silvaowl"
-    },
-    {
         src: "https://i.imgur.com/cYfUogT.png",
         thumbnail: "https://i.imgur.com/QwOIj65.png",
         width: 1419,
@@ -406,29 +379,29 @@ const artfight =
     }]
 
 const refs =
-    [{
-        src: "https://i.imgur.com/brwKNcD.png",
-        thumbnail: "https://i.imgur.com/oee2fal.png",
-        width: 1600,
-        height: 1897,
+    [    {
+        src: "https://i.imgur.com/1t4ca9Y.png",
+        thumbnail: "https://i.imgur.com/lPYWgVi.png",
+        width: 1909,
+        height: 2554,
     },
     {
-        src: "https://i.imgur.com/w2V1qEu.png",
-        thumbnail: "https://i.imgur.com/3QHuTIA.png",
-        width: 855,
-        height: 828,
+        src: "https://i.imgur.com/hF0Hvms.png",
+        thumbnail: "https://i.imgur.com/7UwGG8S.png",
+        width: 2000,
+        height: 2540,
     },
     {
-        src: "https://i.imgur.com/zHUpu94.png",
-        thumbnail: "https://i.imgur.com/y9MxOQb.png",
-        width: 974,
-        height: 882,
+        src: "https://i.imgur.com/qWVCHeD.png",
+        thumbnail: "https://i.imgur.com/EAaE6F1.png",
+        width: 2000,
+        height: 2573,
     },
     {
-        src: "https://i.imgur.com/PaXX6ok.png",
-        thumbnail: "https://i.imgur.com/nw8HYBA.png",
-        width: 1410,
-        height: 1383,
+        src: "https://i.imgur.com/SOrxVSx.png",
+        thumbnail: "https://i.imgur.com/OamVLL6.png",
+        width: 2000,
+        height: 2576,
     }]
 
 
@@ -462,7 +435,7 @@ export function Artwork(props) {
                                 },
                             }}
                             sx={{ borderRight: { xs: 0, md: 1 }, borderBottom: { xs: 1, md: 0 }, padding: { xs: '20px 0px 0px 0px', md: '50px 0px 0px 10px' }, height: { xs: 0, md: '80vh' } }}>
-                            <StyledTab label="GALLERY" {...a11yProps(0)} />
+                            <StyledTab label="COMMISSIONS" {...a11yProps(0)} />
                             <StyledTab label="ESJ" {...a11yProps(1)} />
                             <StyledTab label="ARTFIGHT" {...a11yProps(2)} />
                         </Tabs>
@@ -471,7 +444,7 @@ export function Artwork(props) {
 
                 {/* Tab contents */}
                 <Box sx={{ flexGrow: 1, height: '90vh', overflowY: 'auto', width: { xs: 'auto', md: '70vw' } }} >
-                    <Box style={{ height: '90vh', width: '50%', marginLeft: 'auto', marginRight: 'auto' }} >
+                    <Box style={{ height: '90vh', width: '80%', marginLeft: 'auto', marginRight: 'auto' }} >
 
                         {/* Gallery */}
                         <TabPanel value={value} index={0} class="theme-force sidebar-item">
@@ -488,12 +461,12 @@ export function Artwork(props) {
                                         <p style={{ textAlign: 'justify', width: '95%', marginLeft: 'auto', marginRight: 'auto', fontFamily: "'Cormorant Garamond', serif" }}>
                                             The <i>Elementary Stem Journal</i> is a theme-based journal produced electronically four
                                             times each school year. It is a dynamic journal for anyone interested in technological
-                                            literacy in Grades K-6 <a href="https://www.iteea.org/39195.aspx" target="_blank" rel="noopener noreferrer" className="link">[1]</a>. <br/><br/>
+                                            literacy in Grades K-6 <a href="https://www.iteea.org/39195.aspx" target="_blank" rel="noopener noreferrer" className="link">[1]</a>. <br /><br />
                                             Over the span of 2 years, I created 20 pieces of artwork across 4 volumes. My pieces
                                             served as visual aids to explain the concepts discussed in the article, as well as to
-                                            create interactive activities at the end of each chapter. <br/><br/>
-                                            I worked alongside the author and coordinator to create artwork that would enhance the 
-                                            overall story and learning concepts, with multiple rounds of feedback and refinements 
+                                            create interactive activities at the end of each chapter. <br /><br />
+                                            I worked alongside the author and coordinator to create artwork that would enhance the
+                                            overall story and learning concepts, with multiple rounds of feedback and refinements
                                             for each chapter.
                                         </p>
                                     </Box>

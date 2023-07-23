@@ -81,6 +81,9 @@ export function Contact(props) {
                                 Send a message
                             </Button>
                         </div>
+                        <div style={{ marginTop: '120px', textAlign: 'center' }}>
+                            <p>or email me at <a href="mailto:gmmastra@gmail.com" target="_blank" rel="noreferrer" className="link">gmmastra@gmail.com</a></p>
+                        </div>
                     </Box>
                 </form>
             </Grow >

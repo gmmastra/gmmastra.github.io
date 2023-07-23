@@ -38,6 +38,16 @@ span {
   font-size: 17px;
 }
 
+.subheading {
+  font-size: 50px;
+}
+
+.year {
+  font-size: 25px;
+  margin-top: -15px;
+  font-weight: bold;
+}
+
 button {
   color: var(--text-primary);
   background-color: var(--background);
@@ -101,6 +111,15 @@ button {
   z-index: 12000;
 }
 
+.webdev-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0 40px 0;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
 .game-row {
   display: flex;
   justify-content: center;
@@ -118,6 +137,7 @@ button {
   font-weight: bold;
   font-size: 15px;
   margin: 1em 0;
+  margin-right: 10px;
   color: var(--text-primary);
   text-decoration: none;
 }
@@ -176,6 +196,11 @@ button {
 
 .image-gallery-content {
   width: 420px;
+}
+
+.pswp__default-caption {
+  background-color: var(--force-light);
+  color: var(--force-dark) !important;
 }
 
 ::-webkit-scrollbar {
