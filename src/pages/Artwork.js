@@ -457,7 +457,7 @@ export function Artwork(props) {
                                 <div style={{ display: 'flex', justifyContent: esjView ? 'space-between' : 'center', flexWrap: 'wrap-reverse', alignContent: 'center', overflowWrap: 'break-word', padding: '20px 0 20px 0', width: '70vw' }}>
                                     <ImageGallery items={esjCovers} showThumbnails={false} showPlayButton={false} autoPlay={true} showFullscreenButton={false} />
                                     <Box sx={{ width: { md: '100%', lg: '50%' } }}>
-                                        <h1 style={{ fontSize: '60px' }}>ELEMENTARY STEM JOURNAL</h1>
+                                        <h1 className='subheading'>ELEMENTARY STEM JOURNAL</h1>
                                         <p style={{ textAlign: 'justify', width: '95%', marginLeft: 'auto', marginRight: 'auto', fontFamily: "'Cormorant Garamond', serif" }}>
                                             The <i>Elementary Stem Journal</i> is a theme-based journal produced electronically four
                                             times each school year. It is a dynamic journal for anyone interested in technological
@@ -484,7 +484,7 @@ export function Artwork(props) {
                                 <div>
                                     <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', alignContent: 'center', overflowWrap: 'break-word', padding: '20px 0 20px 0' }}>
                                         <a href="https://artfight.net/" target="_blank" rel="noopener noreferrer" className="link">
-                                            <h1 style={{ fontSize: '100px', marginLeft: 'auto', marginRight: 'auto' }}>ARTFIGHT</h1>
+                                            <h1 style={{ fontSize: '80px', marginLeft: 'auto', marginRight: 'auto' }}>ARTFIGHT</h1>
                                         </a>
                                         <Box sx={{ width: '45%', flexGrow: 1, paddingTop: { xs: '20px', lg: '0' } }}>
                                             <span> is an annual art game that lasts for 1 month. Players are split into two teams, and

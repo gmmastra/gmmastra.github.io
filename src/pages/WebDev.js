@@ -265,7 +265,7 @@ export function WebDev(props) {
                                             </span>
                                             <br /><br />
 
-                                            <Button class="game-button" href="http://bit.ly/3NHkYSk" target="_blank">
+                                            <Button class="game-button" href="https://bit.ly/3NHkYSk" target="_blank">
                                                 SCENARIO 1
                                             </Button>
                                             <Button class="game-button" href="https://bit.ly/3pJ4ml1" target="_blank">
@@ -301,7 +301,7 @@ export function WebDev(props) {
                                             </span>
                                             <br /><br />
 
-                                            <Button class="game-button" href="https://gmastr.github.io/8-bit-pokedex/" target="_blank">
+                                            <Button class="game-button" href="https://gmmastra.github.io/8-bit-pokedex/" target="_blank">
                                                 GO NOW
                                             </Button>
                                         </Box>
