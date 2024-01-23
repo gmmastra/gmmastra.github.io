@@ -76,8 +76,8 @@ export function Home(props) {
                         customTransition={'transform 600ms ease-in-out'}
                         pauseOnHover={false}
                     >
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/OO5EfIbh.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
-                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/GzWAgcHh.png)`, backgroundSize: '260%', backgroundPosition: '20% 40%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/J640J8D.jpg)`, backgroundSize: 'cover', backgroundPosition: '10% 20%' }} />
+                        <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/3j4ujZb.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/WQVzUIA.jpg)`, backgroundSize: '100%', backgroundPosition: '50% 40%' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/mBydfgCh.png)`, backgroundSize: '140%', backgroundPosition: '25% 25%' }} />
                         <div className='carousel-item-padding-40-px' style={{ height: '170px', backgroundImage: `url(https://i.imgur.com/b5AFuqc.jpg)`, backgroundSize: '100%', backgroundPosition: '30% 25%' }} />

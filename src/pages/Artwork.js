@@ -53,127 +53,128 @@ const StyledTab = styled((props) => (
 }));
 
 const gallery =
-    [{
-        src: "https://i.imgur.com/kqF2bol.png",
-        thumbnail: "https://i.imgur.com/kqF2bolm.png",
-        width: 1157,
-        height: 1134,
-    },
-    {
-        src: "https://i.imgur.com/WQVzUIA.jpg",
-        thumbnail: "https://i.imgur.com/WQVzUIAm.jpg",
-        width: 2000,
-        height: 2000,
-    },
-    {
-        src: "https://i.imgur.com/FyHAz0T.png",
-        thumbnail: "https://i.imgur.com/FyHAz0Tm.png",
-        width: 1180,
-        height: 1494,
-    },
-    {
-        src: "https://i.imgur.com/ptTJezV.png",
-        thumbnail: "https://i.imgur.com/ptTJezVm.png",
-        width: 1264,
-        height: 1792,
-    },
-    {
-        src: "https://i.imgur.com/qc2kxz4.jpg",
-        thumbnail: "https://i.imgur.com/qc2kxz4m.jpg",
-        width: 2272,
-        height: 1278,
-    },
-    {
-        src: "https://i.imgur.com/8czOc7k.jpg",
-        thumbnail: "https://i.imgur.com/8czOc7k.jpg",
-        width: 1664,
-        height: 2259,
-    },
-    {
-        src: "https://i.imgur.com/a5OQA1M.png",
-        thumbnail: "https://i.imgur.com/a5OQA1Mm.png",
-        width: 1508,
-        height: 1921,
+    [
+        {
+            src: "https://i.imgur.com/J640J8D.jpg",
+            thumbnail: "https://i.imgur.com/J640J8Dm.jpg",
+            width: 1887,
+            height: 2854,
+        },
+        {
+            src: "https://i.imgur.com/3j4ujZb.jpg",
+            thumbnail: "https://i.imgur.com/3j4ujZbm.jpg",
+            width: 1280,
+            height: 892,
+        },
+        {
+            src: "https://i.imgur.com/kqF2bol.png",
+            thumbnail: "https://i.imgur.com/kqF2bolm.png",
+            width: 1157,
+            height: 1134,
+        },
+        {
+            src: "https://i.imgur.com/WQVzUIA.jpg",
+            thumbnail: "https://i.imgur.com/WQVzUIAm.jpg",
+            width: 2000,
+            height: 2000,
+        },
+        {
+            src: "https://i.imgur.com/FyHAz0T.png",
+            thumbnail: "https://i.imgur.com/FyHAz0Tm.png",
+            width: 1180,
+            height: 1494,
+        },
+        {
+            src: "https://i.imgur.com/ptTJezV.png",
+            thumbnail: "https://i.imgur.com/ptTJezVm.png",
+            width: 1264,
+            height: 1792,
+        },
+        {
+            src: "https://i.imgur.com/qc2kxz4.jpg",
+            thumbnail: "https://i.imgur.com/qc2kxz4m.jpg",
+            width: 2272,
+            height: 1278,
+        },
+        {
+            src: "https://i.imgur.com/8czOc7k.jpg",
+            thumbnail: "https://i.imgur.com/8czOc7k.jpg",
+            width: 1664,
+            height: 2259,
+        },
+        {
+            src: "https://i.imgur.com/a5OQA1M.png",
+            thumbnail: "https://i.imgur.com/a5OQA1Mm.png",
+            width: 1508,
+            height: 1921,
 
-    },
-    {
-        src: "https://i.imgur.com/1yrbj6f.jpg",
-        thumbnail: "https://i.imgur.com/1yrbj6fl.jpg",
-        width: 1437,
-        height: 3114,
-    },
-    {
-        src: "https://i.imgur.com/3UcMZHM.png",
-        thumbnail: "https://i.imgur.com/3UcMZHMm.png",
-        width: 1617,
-        height: 2078,
-    },
-    {
-        src: "https://i.imgur.com/vflmKpK.jpg",
-        thumbnail: "https://i.imgur.com/vflmKpKm.jpg",
-        width: 4242,
-        height: 3787,
-    },
-    {
-        src: "https://i.imgur.com/T9TVq9Q.jpg",
-        thumbnail: "https://i.imgur.com/T9TVq9Qm.jpg",
-        width: 1332,
-        height: 1290,
-    },
-    {
-        src: "https://i.imgur.com/YGZp7u0.jpg",
-        thumbnail: "https://i.imgur.com/YGZp7u0l.jpg",
-        width: 562,
-        height: 1615,
-    },
-    {
-        src: "https://i.imgur.com/nwr089M.jpg",
-        thumbnail: "https://i.imgur.com/nwr089Mm.jpg",
-        width: 1500,
-        height: 2297,
-    },
-    {
-        src: "https://i.imgur.com/XmpIKUy.jpg",
-        thumbnail: "https://i.imgur.com/XmpIKUym.jpg",
-        width: 2109,
-        height: 3207,
-    },
-    {
-        src: "https://i.imgur.com/stoNWX9.jpg",
-        thumbnail: "https://i.imgur.com/stoNWX9m.jpg",
-        width: 3864,
-        height: 4264,
-    },
-    {
-        src: "https://i.imgur.com/PDWfzG0.jpg",
-        thumbnail: "https://i.imgur.com/PDWfzG0m.jpg",
-        width: 1231,
-        height: 1264,
-    },
-    {
-        src: "https://i.imgur.com/dD79gi2.png",
-        thumbnail: "https://i.imgur.com/dD79gi2m.png",
-        width: 2392,
-        height: 1840,
-    },
-    {
-        src: "https://i.imgur.com/ACTYZqI.jpg",
-        thumbnail: "https://i.imgur.com/ACTYZqIm.jpg",
-        width: 894,
-        height: 1080,
-    },
-    {
-        src: "https://i.imgur.com/b5AFuqc.jpg",
-        thumbnail: "https://i.imgur.com/b5AFuqcm.jpg",
-        width: 2266,
-        height: 3432,
-    },
-    {
-        src: "https://i.imgur.com/orokj7y.jpg",
-        thumbnail: "https://i.imgur.com/orokj7ym.jpg",
-        width: 2173,
-        height: 2138,
-    }]
+        },
+        {
+            src: "https://i.imgur.com/1yrbj6f.jpg",
+            thumbnail: "https://i.imgur.com/1yrbj6fl.jpg",
+            width: 1437,
+            height: 3114,
+        },
+        {
+            src: "https://i.imgur.com/3UcMZHM.png",
+            thumbnail: "https://i.imgur.com/3UcMZHMm.png",
+            width: 1617,
+            height: 2078,
+        },
+        {
+            src: "https://i.imgur.com/vflmKpK.jpg",
+            thumbnail: "https://i.imgur.com/vflmKpKm.jpg",
+            width: 4242,
+            height: 3787,
+        },
+        {
+            src: "https://i.imgur.com/T9TVq9Q.jpg",
+            thumbnail: "https://i.imgur.com/T9TVq9Qm.jpg",
+            width: 1332,
+            height: 1290,
+        },
+        {
+            src: "https://i.imgur.com/nwr089M.jpg",
+            thumbnail: "https://i.imgur.com/nwr089Mm.jpg",
+            width: 1500,
+            height: 2297,
+        },
+        {
+            src: "https://i.imgur.com/XmpIKUy.jpg",
+            thumbnail: "https://i.imgur.com/XmpIKUym.jpg",
+            width: 2109,
+            height: 3207,
+        },
+        {
+            src: "https://i.imgur.com/stoNWX9.jpg",
+            thumbnail: "https://i.imgur.com/stoNWX9m.jpg",
+            width: 3864,
+            height: 4264,
+        },
+        {
+            src: "https://i.imgur.com/PDWfzG0.jpg",
+            thumbnail: "https://i.imgur.com/PDWfzG0m.jpg",
+            width: 1231,
+            height: 1264,
+        },
+        {
+            src: "https://i.imgur.com/dD79gi2.png",
+            thumbnail: "https://i.imgur.com/dD79gi2m.png",
+            width: 2392,
+            height: 1840,
+        },
+        {
+            src: "https://i.imgur.com/b5AFuqc.jpg",
+            thumbnail: "https://i.imgur.com/b5AFuqcm.jpg",
+            width: 2266,
+            height: 3432,
+        },
+        {
+            src: "https://i.imgur.com/orokj7y.jpg",
+            thumbnail: "https://i.imgur.com/orokj7ym.jpg",
+            width: 2173,
+            height: 2138,
+        }]
 
 const esjCovers = [
     {
@@ -379,7 +380,7 @@ const artfight =
     }]
 
 const refs =
-    [    {
+    [{
         src: "https://i.imgur.com/1t4ca9Y.png",
         thumbnail: "https://i.imgur.com/lPYWgVi.png",
         width: 1909,
