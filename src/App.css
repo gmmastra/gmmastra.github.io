@@ -1,19 +1,20 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 :root {
-  --background: #f2f3ea;
-  --text-primary: black;
-  --text-secondary: #d68624;
-  --accent: #74a525;
   --force-dark: #141414;
   --force-light: #f2f3ea;
-}
 
-[data-theme='dark'] {
   --background: #141414;
   --text-primary: #f2f3ea;
   --text-secondary: #d68624;
   --accent: grey;
+}
+
+[data-theme='light'] {
+  --background: #f2f3ea;
+  --text-primary: black;
+  --text-secondary: #d68624;
+  --accent: #74a525;
 }
 
 .App {

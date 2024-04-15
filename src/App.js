@@ -16,7 +16,7 @@ export default function App() {
   const [theme, setTheme] = useLocalStorage('theme', defaultLight ? 'light' : 'dark');
 
   const switchTheme = () => {
-    const switchTo = (theme === 'dark' ? 'light' : 'dark');
+    const switchTo = (theme === 'light' ? 'dark' : 'light');
     setTheme(switchTo);
   }
 

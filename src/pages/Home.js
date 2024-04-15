@@ -117,7 +117,7 @@ export function Home(props) {
                 </Slide>
 
                 <Slide direction="down" in={true} timeout={600} mountOnEnter unmountOnExit>
-                    <Box sx={{ mb: 1, textAlign: 'center', border: '1px solid', padding: { sm: '0px', md: '20px' }, width: 'fit-content' }}>
+                    <Box sx={{ mb: 1, mt: 1, textAlign: 'center', border: '1px solid', padding: { sm: '0px', md: '20px' }, width: 'fit-content' }}>
                         <span>I'm an artist, web developer, and enthusiastic hobbyist based in Raleigh, NC.</span>
                     </Box>
                 </Slide>
@@ -125,20 +125,20 @@ export function Home(props) {
 
             <Slide direction="down" in={true} timeout={600} mountOnEnter unmountOnExit>
                 <Box sx={{ mb: 4, textAlign: 'center' }}>
-                    <a className="link" href="https://github.com/gmmastra" target="_blank" rel="noreferrer">
+                    <a className="link theme-element" href="https://github.com/gmmastra" target="_blank" rel="noreferrer">
                         <GitHubIcon />
                     </a>
-                    <a className="link" href="https://www.linkedin.com/in/gmmastra/" target="_blank" rel="noreferrer">
+                    <a className="link theme-element" href="https://www.linkedin.com/in/gmmastra/" target="_blank" rel="noreferrer">
                         <LinkedInIcon style={{ padding: '0 10px' }} />
                     </a>
-                    <a className="link" href="https://gmastr.itch.io/" target="_blank" rel="noreferrer">
+                    <a className="link theme-element" href="https://gmastr.itch.io/" target="_blank" rel="noreferrer">
                         <StorefrontIcon />
                     </a>
                 </Box>
             </Slide>
 
             <Grow in={true} timeout={800} mountOnEnter unmountOnExit>
-                <Box sx={{ mb: 4, ml: 'auto', mr: 'auto', border: '1px solid', width: '68vw' }}>
+                <Box sx={{ mb: 4, ml: 'auto', mr: 'auto', border: '1px solid', width: { sm: '100%', md: '68vw' } }}>
                     <ArtGallery images={gallery} width={'15vw'} height={'15vw'} />
                 </Box>
             </Grow>
