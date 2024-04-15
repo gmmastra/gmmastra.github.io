@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1d99c55.css",
-    "main.js": "/static/js/main.16ced9d7.js",
+    "main.css": "/static/css/main.61e685e1.css",
+    "main.js": "/static/js/main.261c7391.js",
     "static/media/gmmastra_resume.pdf": "/static/media/gmmastra_resume.b9cde579165d64b85db7.pdf",
     "static/media/logo-Regular.otf": "/static/media/logo-Regular.4160417a2664da1e66ed.otf",
     "index.html": "/index.html",
-    "main.b1d99c55.css.map": "/static/css/main.b1d99c55.css.map",
-    "main.16ced9d7.js.map": "/static/js/main.16ced9d7.js.map"
+    "main.61e685e1.css.map": "/static/css/main.61e685e1.css.map",
+    "main.261c7391.js.map": "/static/js/main.261c7391.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1d99c55.css",
-    "static/js/main.16ced9d7.js"
+    "static/css/main.61e685e1.css",
+    "static/js/main.261c7391.js"
   ]
 }
