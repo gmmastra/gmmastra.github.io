@@ -12,11 +12,11 @@ import { Contact } from "./pages/Contact";
 export default function App() {
 
   // Remembers dark/light theme preference
-  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+  const defaultLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+  const [theme, setTheme] = useLocalStorage('theme', defaultLight ? 'light' : 'dark');
 
   const switchTheme = () => {
-    const switchTo = (theme === 'light' ? 'dark' : 'light');
+    const switchTo = (theme === 'dark' ? 'light' : 'dark');
     setTheme(switchTo);
   }
 
@@ -26,7 +26,7 @@ export default function App() {
         <NavBar {...{ theme, switchTheme }} />
         <div className="content">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Home} {...{ theme }} />
             <Route path="/artwork" component={Artwork} />
             <Route path="/webdev" component={WebDev} />
             <Route path="/gamedev" component={GameDev} />

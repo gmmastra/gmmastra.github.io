@@ -166,6 +166,23 @@ const pokedex = [
         height: 873
     }]
 
+// DataGenius gallery links
+const toyhouse = [
+    {
+        src: "https://i.imgur.com/XcoR1Jy.gif",
+        thumbnail: "https://i.imgur.com/XcoR1Jy.gif",
+        width: 600,
+        height: 363,
+        caption: "Retro CRT layout"
+    },
+    {
+        src: "https://i.imgur.com/N6Ge5on.gif",
+        thumbnail: "https://i.imgur.com/N6Ge5on.gif",
+        width: 600,
+        height: 365,
+        caption: "'Genshin Impact'-inspired layout"
+    }]
+
 export function WebDev(props) {
 
     const [value, setValue] = React.useState(0);
@@ -215,13 +232,15 @@ export function WebDev(props) {
                                         <Box sx={{ width: { xs: '70%', md: '50%' }, marginRight: '10%', textAlign: 'left' }}>
                                             <h1 className='subheading'>FSLI</h1>
                                             <p className='year'>2022</p>
-                                            <span>
-                                                The Food Systems Leadership Institute website was programmed using the Wordpress engine. I was in charge of updating
-                                                the frontend according to design documents, working with HTML and CSS. Another responsibility was redesigning pages,
-                                                creating my own design documents utilizing FIGMA wireframes and Adobe Photoshop. Each page underwent several rounds
-                                                of iteration, with a focus on modernizing the site and optimizing existing pages for mobile use.
-                                            </span>
-                                            <br /><br />
+                                            <div className="box-entry">
+                                                <span>
+                                                    The Food Systems Leadership Institute website was programmed using the Wordpress engine. I was in charge of updating
+                                                    the frontend according to design documents, working with HTML and CSS. Another responsibility was redesigning pages,
+                                                    creating my own design documents utilizing FIGMA wireframes and Adobe Photoshop. Each page underwent several rounds
+                                                    of iteration, with a focus on modernizing the site and optimizing existing pages for mobile use.
+                                                </span>
+                                            </div>
+                                            <br />
 
                                             <Button class="game-button" href="https://fsli.org/" target="_blank">
                                                 GO NOW
@@ -237,13 +256,15 @@ export function WebDev(props) {
                                         <Box sx={{ width: { xs: '70%', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
                                             <h1 className='subheading'>SAS DATAGENIUS</h1>
                                             <p className='year'>2022</p>
-                                            <span>
-                                                DataGenius was a sponsored, semester-long project in it's second stage, done at North Carolina State University
-                                                as part of my Senior Design class. The frontend was served via HTTPS as a progressive web application, programmed
-                                                using REACT and the MaterialUI library. The backend was contained using DOCKER containers, and utilized the FLASK
-                                                PYTHON module and SQLALCHEMY to communicate with the frontend and database. I was the frontend lead, responsible
-                                                for creating wireframes and iteratively programming them, as well as testing my own and others' code through SELENIUM.
-                                            </span>
+                                            <div className="box-entry">
+                                                <span>
+                                                    DataGenius was a sponsored, semester-long project done at North Carolina State University
+                                                    as part of my Senior Design class. The frontend was served via HTTPS as a progressive web application, and programmed
+                                                    using REACT. The backend was composed of DOCKER containers, and utilized the FLASK
+                                                    PYTHON module and SQLALCHEMY to communicate with the frontend and database. I was the frontend lead, responsible
+                                                    for creating wireframes and iteratively programming them, as well as testing my own and others' code through SELENIUM.
+                                                </span>
+                                            </div>
                                         </Box>
                                         <img src="https://i.imgur.com/m0x9Yzf.png" width="300px" alt="DataGenius" />
                                     </Box>
@@ -257,13 +278,15 @@ export function WebDev(props) {
                                         <Box sx={{ width: { xs: '70%', md: '50%' }, marginRight: '10%', textAlign: 'left' }}>
                                             <h1 className='subheading'>ENVIROATLAS</h1>
                                             <p className='year'>2022</p>
-                                            <span>
-                                                EnviroAtlas was a sponsored UI/UX project done at North Carolina State University as part of my Human-Computer
-                                                Interactions course. The focus was on modernizing the sites UI, and I was responsible for creating interactive
-                                                wireframes in FIGMA, as well as conducting several rounds of usability testing. Feedback was gathered after each
-                                                round, and the final designs and gathered overall user experience was delivered to the project sponsors.
-                                            </span>
-                                            <br /><br />
+                                            <div className="box-entry">
+                                                <span>
+                                                    EnviroAtlas was a sponsored UI/UX project done at North Carolina State University as part of my Human-Computer
+                                                    Interactions course. The focus was on modernizing the sites UI, and I was responsible for creating interactive
+                                                    wireframes in FIGMA, as well as conducting several rounds of usability testing. Feedback was gathered after each
+                                                    round, and the final designs and gathered overall user experience was delivered to the project sponsors.
+                                                </span>
+                                            </div>
+                                            <br />
 
                                             <Button class="game-button" href="https://bit.ly/3NHkYSk" target="_blank">
                                                 SCENARIO 1
@@ -288,19 +311,21 @@ export function WebDev(props) {
                         <TabPanel value={value} index={1} class="theme-force sidebar-item">
                             <Grow in={true} timeout={600} mountOnEnter unmountOnExit>
                                 <div>
+
                                     {/* 8-BIT POKEDEX */}
                                     <Box class="webdev-row">
                                         <img src="https://i.imgur.com/0BD2jAM.png" width="300px" alt="pokedex" />
                                         <Box sx={{ width: { xs: '70%', md: '50%' }, marginRight: '10%', textAlign: 'left' }}>
                                             <h1 className='subheading'>8-BIT POKEDEX</h1>
                                             <p className='year'>2023</p>
-                                            <span>
-                                                The 8-BIT POKEDEX is an interactive database on
-                                                <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="noreferrer" className="link"> POKEMON</a>.
-                                                The site was created in REACT utilizing the MUI library, with a focus on responsive web design.
-                                            </span>
-                                            <br /><br />
-
+                                            <div className="box-entry">
+                                                <span>
+                                                    The 8-BIT POKEDEX is an interactive database on
+                                                    <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="noreferrer" className="link"> POKEMON</a>.
+                                                    The site was created in REACT utilizing the MUI library, with a focus on responsive web design.
+                                                </span>
+                                            </div>
+                                            <br />
                                             <Button class="game-button" href="https://gmmastra.github.io/8-bit-pokedex/" target="_blank">
                                                 GO NOW
                                             </Button>
@@ -309,6 +334,29 @@ export function WebDev(props) {
                                     <div style={{ margin: '0 auto 80px auto' }}>
                                         <ArtGallery images={pokedex} width={220} height={220} caption={true} />
                                     </div>
+
+                                    {/* TOYHOUSE */}
+                                    <Box class="webdev-row">
+                                        <Box sx={{ width: { xs: '70%', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
+                                            <h1 className='subheading'>TOYHOU.SE LAYOUTS</h1>
+                                            <p className='year'>2024</p>
+                                            <div className="box-entry">
+                                                <span>
+                                                    Toyhouse (styled as Toyhou.se) is a website that allows users to create character profiles
+                                                    and worlds using HTML and CSS. The below templates were created utilizing Bootstrap and
+                                                    (unfortunately) inline CSS under strict site restrictions.
+                                                </span>
+                                            </div>
+                                            <br />
+                                            <Button class="game-button" href="https://github.com/gmmastra/profile-templates" target="_blank">
+                                                GO NOW
+                                            </Button>
+                                        </Box>
+                                        <img src="https://i.imgur.com/kyeRgNt.png" width="300px" alt="DataGenius" />
+                                    </Box>
+                                    <Box sx={{ margin: '0 auto 80px auto' }}>
+                                        <ArtGallery images={toyhouse} width={220} height={220} caption={true} />
+                                    </Box>
 
                                 </div>
                             </Grow >

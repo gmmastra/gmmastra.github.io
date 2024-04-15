@@ -24,7 +24,7 @@ export function Contact(props) {
 
         <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '30px' }}>
             <Slide direction="down" in={true} timeout={500} mountOnEnter unmountOnExit>
-                <h1 style={{ fontSize: '50px', width: '100%', textAlign: 'center' }}>CONTACT ME</h1>
+                <p style={{ fontSize: '50px', width: '100%', textAlign: 'center' }}>CONTACT ME</p>
             </Slide>
             <Grow in={true} timeout={1000} mountOnEnter unmountOnExit>
                 <form

@@ -1,17 +1,17 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
 :root {
-  --background: white;
+  --background: #f2f3ea;
   --text-primary: black;
   --text-secondary: #d68624;
   --accent: #74a525;
   --force-dark: #141414;
-  --force-light: white;
+  --force-light: #f2f3ea;
 }
 
 [data-theme='dark'] {
   --background: #141414;
-  --text-primary: white;
+  --text-primary: #f2f3ea;
   --text-secondary: #d68624;
   --accent: grey;
 }
@@ -68,6 +68,11 @@ button {
   transition: all .5s !important;
 }
 
+.nav-box {
+  margin: 10px 30px 0 30px;
+  border: 1px solid var(--text-primary)
+}
+
 .drawer-item {
   text-decoration: none;
   display: block !important;
@@ -92,23 +97,26 @@ button {
 }
 
 .border {
-  background-image: linear-gradient(to right, #ff981b, transparent);
-  height: 5px;
-  width: 100%;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  z-index: 12000;
-}
-
-.border-reverse {
-  background-image: linear-gradient(to left, #ff981b, transparent);
   height: 5px;
   width: 100%;
   position: fixed;
-  bottom: 0px;
+  bottom: 35px;
   left: 0px;
   z-index: 12000;
+  text-align: right;
+}
+
+.border p {
+  font-family: 'Cormorant Garamond', serif !important;
+  border: 1px solid var(--text-primary);
+  padding-right: 10px;
+  background-color: var(--background);
+  transition: all .5s;
+}
+
+.box-entry {
+  border: 1px solid var(--text-primary);
+  padding: 20px;
 }
 
 .webdev-row {
@@ -127,6 +135,28 @@ button {
   margin: 40px 0 40px 0;
   flex-wrap: wrap;
   word-wrap: break-word;
+}
+
+.nav-button p {
+  padding-right: 20px;
+  line-height: 15px;
+  border-right: solid 1px var(--text-primary);
+}
+
+.nav-button,
+.nav-button:visited {
+  border-radius: 5px;
+  padding-left: 20px;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.nav-button:hover,
+.nav-button:hover p,
+.nav-button:visited:hover {
+  background-color: var(--force-dark);
+  color: var(--background) !important;
+  text-align: center;
 }
 
 .game-button,
@@ -159,11 +189,13 @@ button {
   transform: translateX(4px);
 }
 
-.contactInput, .contactInputLabel {
+.contactInput,
+.contactInputLabel {
   color: var(--text-primary) !important;
 }
 
-.MuiOutlinedInput-root.Mui-focused, .MuiOutlinedInput-notchedOutline {
+.MuiOutlinedInput-root.Mui-focused,
+.MuiOutlinedInput-notchedOutline {
   border-color: var(--text-primary) !important;
 }
 

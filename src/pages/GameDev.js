@@ -42,15 +42,15 @@ export function GameDev(props) {
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginRight: '10%' }}>
                             <h1 className='subheading'>ASTEROIDS</h1>
                             <p className='year'>2021</p>
-
-                            <span>ASTEROIDS is a remake of the popular arcade game, now in 3D! I developed this
-                                game in Unity, as part of my final project for the Intro to Computer Graphics
-                                course at NC State. </span>
-                            <br /><br />
-                            <Button class="game-button" href="https://gmastr.itch.io/asteroids" target="_blank">
-                                PLAY
-                            </Button>
-
+                            <div className="box-entry">
+                                <span>ASTEROIDS is a remake of the popular arcade game, now in 3D! I developed this
+                                    game in Unity, as part of my final project for the Intro to Computer Graphics
+                                    course at NC State. </span>
+                                <br /><br />
+                                <Button class="game-button" href="https://gmastr.itch.io/asteroids" target="_blank">
+                                    PLAY
+                                </Button>
+                            </div>
                         </Box>
                     </Box>
 
@@ -59,16 +59,16 @@ export function GameDev(props) {
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
                             <h1 className='subheading'>PIONEERS</h1>
                             <p className='year'>2021</p>
-
-                            <span>PIONEERS is a short interactive fiction game developed in Twine. I
-                                developed this game for my Game Design class at NC State, taking inspiration
-                                from a number of Infocom games such as <i>'Zork'</i> and <i>'Hitchhiker's
-                                    Guide to the Galaxy'.</i> </span>
-                            <br /><br />
-                            <Button class="game-button" href="https://gmastr.itch.io/pioneers" target="_blank">
-                                PLAY
-                            </Button>
-
+                            <div className="box-entry">
+                                <span>PIONEERS is a short interactive fiction game developed in Twine. I
+                                    developed this game for my Game Design class at NC State, taking inspiration
+                                    from a number of Infocom games such as <i>'Zork'</i> and <i>'Hitchhiker's
+                                        Guide to the Galaxy'.</i> </span>
+                                <br /><br />
+                                <Button class="game-button" href="https://gmastr.itch.io/pioneers" target="_blank">
+                                    PLAY
+                                </Button>
+                            </div>
                         </Box>
                         <img src="https://i.imgur.com/gALyjZy.jpg" width="300px" alt="pioneers"></img>
                     </Box>
@@ -79,15 +79,15 @@ export function GameDev(props) {
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginRight: '10%' }}>
                             <h1 className='subheading'>HIDE</h1>
                             <p className='year'>2021</p>
-
-                            <span>HIDE is a top-down puzzle game developed using PuzzleScript. I created
-                                this game as part of a group for the Interactive Game Design course at
-                                NC State. </span>
-                            <br /><br />
-                            <Button class="game-button" href="https://gmastr.itch.io/hide" target="_blank">
-                                PLAY
-                            </Button>
-
+                            <div className="box-entry">
+                                <span>HIDE is a top-down puzzle game developed using PuzzleScript. I created
+                                    this game as part of a group for the Interactive Game Design course at
+                                    NC State. </span>
+                                <br /><br />
+                                <Button class="game-button" href="https://gmastr.itch.io/hide" target="_blank">
+                                    PLAY
+                                </Button>
+                            </div>
                         </Box>
                     </Box>
 
@@ -96,11 +96,12 @@ export function GameDev(props) {
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
                             <h1 className='subheading'>SUPPLY RUN</h1>
                             <p className='year'>2018</p>
-
-                            <span>SUPPLY RUN is a small 2.5D sidescroller developed in Unity during my
-                                senior year of high school. This was my first time creating a
-                                fully-functional, multi-level game, as well as my introduction to
-                                using Unity. </span>
+                            <div className="box-entry">
+                                <span>SUPPLY RUN is a small 2.5D sidescroller developed in Unity during my
+                                    senior year of high school. This was my first time creating a
+                                    fully-functional, multi-level game, as well as my introduction to
+                                    using Unity. </span>
+                            </div>
                         </Box>
                         <iframe
                             src="https://www.youtube.com/embed/lJ_cK6vx_C0"
@@ -130,12 +131,12 @@ export function GameDev(props) {
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginRight: '10%' }}>
                             <h1 className='subheading'>BURGER STACKER</h1>
                             <p className='year'>2018</p>
-
-                            <span>BURGER STACKER is a short game made my senior year of highschool
-                                for the Create Task portion of the AP Computer Science exam. This was a
-                                partner project made using Snap! programming, and was my first time ever
-                                programming a game. Logo and all assets were made by myself.</span>
-
+                            <div className="box-entry">
+                                <span>BURGER STACKER is a short game made my senior year of highschool
+                                    for the Create Task portion of the AP Computer Science exam. This was a
+                                    partner project made using Snap! programming, and was my first time ever
+                                    programming a game. Logo and all assets were made by myself.</span>
+                            </div>
                         </Box>
                     </Box>
 
