@@ -115,7 +115,7 @@ export function NavBar(props) {
                 </Slide>
             </AppBar>
             <div className="border">
-                <p>mastrandrea, maverick | 2024</p>
+                <p>mastrandrea, maverick | 2025</p>
                 </div>
         </div>
     );

@@ -11,9 +11,27 @@ export function Home(props) {
     const gallery =
         [{
             src: "https://i.imgur.com/PAaw48f.png",
-            thumbnail: "https://i.imgur.com/PAaw48fm.png",
+            thumbnail: "https://i.imgur.com/PAaw48fl.png",
             width: 1567,
             height: 1004,
+        },
+        {
+            src: "https://i.imgur.com/7f9bazP.jpeg",
+            thumbnail: "https://i.imgur.com/7f9bazPl.jpeg",
+            width: 3294,
+            height: 2397,
+        },
+        {
+            src: "https://i.imgur.com/00j9IHp.png",
+            thumbnail: "https://i.imgur.com/00j9IHpl.png",
+            width: 825,
+            height: 613,
+        },
+        {
+            src: "https://i.imgur.com/tN7VeVi.png",
+            thumbnail: "https://i.imgur.com/tN7VeVil.png",
+            width: 2519,
+            height: 1286,
         },
         {
             src: "https://i.imgur.com/XcoR1Jy.gif",
@@ -34,35 +52,10 @@ export function Home(props) {
             height: 2789,
         },
         {
-            src: "https://i.imgur.com/IkMp4ES.jpeg",
-            thumbnail: "https://i.imgur.com/IkMp4ESm.jpeg",
-            width: 1849,
-            height: 2525,
-        },
-        {
-            src: "https://i.imgur.com/030m31c.png",
-            thumbnail: "https://i.imgur.com/030m31cm.png",
-            width: 2220,
-            height: 2220,
-        },
-        {
-            src: "https://i.imgur.com/Momqk4F.jpeg",
-            thumbnail: "https://i.imgur.com/Momqk4Fm.jpeg",
-            width: 1437,
-            height: 3114,
-        },
-        {
-            src: "https://i.imgur.com/A17m5lY.png",
-            thumbnail: "https://i.imgur.com/A17m5lYm.png",
-            width: 825,
-            height: 613,
-
-        },
-        {
-            src: "https://i.imgur.com/WwVC5PO.png",
-            thumbnail: "https://i.imgur.com/WwVC5POm.png",
-            width: 2421,
-            height: 1398,
+            src: "https://i.imgur.com/66JmqtD.jpeg",
+            thumbnail: "https://i.imgur.com/66JmqtDl.jpeg",
+            width: 2625,
+            height: 3375,
         },
         {
             src: "https://i.imgur.com/9Ion1Pt.png",
@@ -71,40 +64,46 @@ export function Home(props) {
             height: 2321,
         },
         {
-            src: "https://i.imgur.com/tN7VeVi.png",
-            thumbnail: "https://i.imgur.com/tN7VeVim.png",
-            width: 2519,
-            height: 1286,
+            src: "https://i.imgur.com/Momqk4F.jpeg",
+            thumbnail: "https://i.imgur.com/Momqk4Fl.jpeg",
+            width: 1437,
+            height: 3114,
+        },
+        {
+            src: "https://i.imgur.com/030m31c.png",
+            thumbnail: "https://i.imgur.com/030m31cm.png",
+            width: 2220,
+            height: 2220,
         },
         {
             src: "https://i.imgur.com/MEpEB5Y.png",
-            thumbnail: "https://i.imgur.com/MEpEB5Ym.png",
+            thumbnail: "https://i.imgur.com/MEpEB5Yl.png",
             width: 691,
             height: 1563,
         },
         {
-            src: "https://i.imgur.com/0VWQOPE.png",
-            thumbnail: "https://i.imgur.com/0VWQOPEm.png",
-            width: 1508,
-            height: 1921,
+            src: "https://i.imgur.com/z9rxDhY.png",
+            thumbnail: "https://i.imgur.com/z9rxDhYl.png",
+            width: 2268,
+            height: 1593,
         },
         {
-            src: "https://i.imgur.com/AGFz5hg.png",
-            thumbnail: "https://i.imgur.com/AGFz5hgm.png",
-            width: 2629,
-            height: 1852,
+            src: "https://i.imgur.com/X2K5osu.jpeg",
+            thumbnail: "https://i.imgur.com/X2K5osul.jpeg",
+            width: 2727,
+            height: 3160,
         },
         {
             src: "https://i.imgur.com/UN0KPyE.png",
-            thumbnail: "https://i.imgur.com/UN0KPyEm.png",
+            thumbnail: "https://i.imgur.com/UN0KPyEl.png",
             width: 1238,
             height: 1805,
         },
         {
-            src: "https://i.imgur.com/N6Ge5on.gif",
-            thumbnail: "https://i.imgur.com/N6Ge5on.gif",
-            width: 600,
-            height: 365,
+            src: "https://i.imgur.com/r9Tnzyy.jpeg",
+            thumbnail: "https://i.imgur.com/r9Tnzyyl.jpeg",
+            width: 1887,
+            height: 2854,
         },]
 
     return (

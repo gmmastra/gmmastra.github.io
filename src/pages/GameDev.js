@@ -36,6 +36,24 @@ export function GameDev(props) {
             <Grow in={true} timeout={600} mountOnEnter unmountOnExit>
                 <div>
 
+                    {/* I AM AN AI */}
+                    <Box class="game-row" style={{ flexWrap: 'wrap-reverse' }}>
+                        <Box sx={{ width: { xs: 'auto', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
+                            <h1 className='subheading'>i am an ai meant to assist you</h1>
+                            <p className='year'>2025</p>
+                            <div className="box-entry">
+                                <span>I AM AN AI MEANT TO ASSIST YOU (WITH YOUR DREAD AND DESPAIR) is a short, dystopian
+                                     interactive fiction game. I developed this game in 48 hours in Twine, as a 
+                                     critique of the rise of artificial intelligence in modern technology. </span>
+                                <br /><br />
+                                <Button class="game-button" href="https://gmastr.itch.io/i-am-an-ai-meant-to-assist" target="_blank">
+                                    PLAY
+                                </Button>
+                            </div>
+                        </Box>
+                        <img src="https://i.imgur.com/rBwkW6B.png" width="300px" alt="pioneers"></img>
+                    </Box>
+
                     {/* ASTEROIDS */}
                     <Box class="game-row">
                         <img src="https://i.imgur.com/ep2NFiw.png" width="300px" alt="asteroids"></img>

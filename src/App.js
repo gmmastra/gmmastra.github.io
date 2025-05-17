@@ -12,7 +12,7 @@ import { Contact } from "./pages/Contact";
 export default function App() {
 
   // Remembers dark/light theme preference
-  const defaultLight = window.matchMedia('(prefers-color-scheme: light)').matches;
+  const defaultLight = window.matchMedia('(prefers-color-scheme: dark)').matches;
   const [theme, setTheme] = useLocalStorage('theme', defaultLight ? 'light' : 'dark');
 
   const switchTheme = () => {
