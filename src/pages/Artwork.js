@@ -54,6 +54,42 @@ const StyledTab = styled((props) => (
 
 const gallery =
     [{
+        src: "https://i.imgur.com/8Tc7qVk.jpeg",
+        thumbnail: "https://i.imgur.com/8Tc7qVkm.jpeg",
+        width: 4242,
+        height: 3787,
+    },
+    {
+        src: "https://i.imgur.com/2FPXZqp.png",
+        thumbnail: "https://i.imgur.com/2FPXZqpm.png",
+        width: 1814,
+        height: 2100,
+    },
+    {
+        src: "https://i.imgur.com/oq7jddg.jpeg",
+        thumbnail: "https://i.imgur.com/oq7jddgm.jpeg",
+        width: 1837,
+        height: 2242,
+    },
+    {
+        src: "https://i.imgur.com/QCzSgwe.jpeg",
+        thumbnail: "https://i.imgur.com/QCzSgwem.jpeg",
+        width: 9000,
+        height: 5400,
+    },
+    {
+        src: "https://i.imgur.com/yqaXNIz.jpeg",
+        thumbnail: "https://i.imgur.com/yqaXNIzm.jpeg",
+        width: 1526,
+        height: 2055,
+    },
+    {
+        src: "https://i.imgur.com/KA1BvQZ.jpeg",
+        thumbnail: "https://i.imgur.com/KA1BvQZm.jpeg",
+        width: 2448,
+        height: 2574,
+    },
+    {
         src: "https://i.imgur.com/kqF2bol.png",
         thumbnail: "https://i.imgur.com/kqF2bolm.png",
         width: 1157,
@@ -169,12 +205,6 @@ const gallery =
 
     },
     {
-        src: "https://i.imgur.com/nwr089M.jpg",
-        thumbnail: "https://i.imgur.com/nwr089Mm.jpg",
-        width: 1500,
-        height: 2297,
-    },
-    {
         src: "https://i.imgur.com/XmpIKUy.jpg",
         thumbnail: "https://i.imgur.com/XmpIKUym.jpg",
         width: 2109,
@@ -191,12 +221,6 @@ const gallery =
         thumbnail: "https://i.imgur.com/PDWfzG0m.jpg",
         width: 1231,
         height: 1264,
-    },
-    {
-        src: "https://i.imgur.com/dD79gi2.png",
-        thumbnail: "https://i.imgur.com/dD79gi2m.png",
-        width: 2392,
-        height: 1840,
     },
     {
         src: "https://i.imgur.com/FyHAz0T.png",
@@ -370,6 +394,69 @@ const esj = [{
 
 const artfight =
     [{
+        src: "https://i.imgur.com/hIs3AGE.png",
+        thumbnail: "https://i.imgur.com/c8tFnrC.png",
+        width: 1844,
+        height: 2087,
+        caption: "Character by @Argo_Chicken"
+    },
+    {
+        src: "https://i.imgur.com/X7WPr8z.gif",
+        thumbnail: "https://i.imgur.com/KeEaFog.gif",
+        width: 1465,
+        height: 1920,
+        caption: "Character by @leithsin"
+    },
+    {
+        src: "https://i.imgur.com/E0oGirG.png",
+        thumbnail: "https://i.imgur.com/kSKdko8.png",
+        width: 1931,
+        height: 2041,
+        caption: "Character by @rabbitorena"
+    },
+    {
+        src: "https://i.imgur.com/sJ7ZWT5.png",
+        thumbnail: "https://i.imgur.com/L83BhdX.png",
+        width: 1433,
+        height: 2081,
+        caption: "Character by @crumbeee_"
+    },
+    {
+        src: "https://i.imgur.com/MJOg1WV.png",
+        thumbnail: "https://i.imgur.com/cSVYF5s.png",
+        width: 2000,
+        height: 2000,
+        caption: "Character by @bugsbucky"
+    },
+    {
+        src: "https://i.imgur.com/8wAKLmT.png",
+        thumbnail: "https://i.imgur.com/kGLL00a.png",
+        width: 1485,
+        height: 1892,
+        caption: "Character by @Nickoism0"
+    },
+    {
+        src: "https://i.imgur.com/VYj4MQY.png",
+        thumbnail: "https://i.imgur.com/jxbrDSt.png",
+        width: 1931,
+        height: 1980,
+        caption: "Character by @Sumjirel"
+    },
+    {
+        src: "https://i.imgur.com/gH4zvvg.png",
+        thumbnail: "https://i.imgur.com/SIlzcZU.png",
+        width: 1130,
+        height: 1356,
+        caption: "Character by @koaae"
+    },
+    {
+        src: "https://i.imgur.com/sfMHZ4H.png",
+        thumbnail: "https://i.imgur.com/0pzO8Rp.png",
+        width: 1737,
+        height: 2073,
+        caption: "Character by @T9asted"
+    },
+    {
         src: "https://i.imgur.com/0cCXll1.jpg",
         thumbnail: "https://i.imgur.com/4FlUbCj.png",
         width: 1882,
@@ -424,32 +511,6 @@ const artfight =
         width: 1419,
         height: 1532,
         caption: "Character by @Brightness_"
-    }]
-
-const refs =
-    [    {
-        src: "https://i.imgur.com/1t4ca9Y.png",
-        thumbnail: "https://i.imgur.com/lPYWgVi.png",
-        width: 1909,
-        height: 2554,
-    },
-    {
-        src: "https://i.imgur.com/hF0Hvms.png",
-        thumbnail: "https://i.imgur.com/7UwGG8S.png",
-        width: 2000,
-        height: 2540,
-    },
-    {
-        src: "https://i.imgur.com/qWVCHeD.png",
-        thumbnail: "https://i.imgur.com/EAaE6F1.png",
-        width: 2000,
-        height: 2573,
-    },
-    {
-        src: "https://i.imgur.com/SOrxVSx.png",
-        thumbnail: "https://i.imgur.com/OamVLL6.png",
-        width: 2000,
-        height: 2576,
     }]
 
 
@@ -545,11 +606,6 @@ export function Artwork(props) {
                                             <span>I took this event to practice bust and half-body shots, as well as refine my overall
                                                 process for character artwork and design</span>
                                         </Box>
-                                        <div style={{ paddingTop: '30px' }}>
-                                            <ArtGallery images={refs} width={60} height={60} />
-                                            <p style={{ fontSize: '12px' }}>MY CHARACTER REFS</p>
-                                        </div>
-
                                     </div>
 
                                     <Divider className="theme-force" />

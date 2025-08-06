@@ -4,15 +4,15 @@
   --force-dark: #141414;
   --force-light: #f2f3ea;
 
-  --background: #141414;
-  --text-primary: #f2f3ea;
+  --background: #f2f3ea;
+  --text-primary: black;
   --text-secondary: #d68624;
   --accent: grey;
 }
 
-[data-theme='light'] {
-  --background: #f2f3ea;
-  --text-primary: black;
+[data-theme='dark'] {
+  --background: #141414;
+  --text-primary: #f2f3ea;
   --text-secondary: #d68624;
   --accent: grey;
 }

@@ -13,10 +13,10 @@ export default function App() {
 
   // Remembers dark/light theme preference
   const defaultLight = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const [theme, setTheme] = useLocalStorage('theme', defaultLight ? 'light' : 'dark');
+  const [theme, setTheme] = useLocalStorage('theme', defaultLight ? 'dark' : 'light');
 
   const switchTheme = () => {
-    const switchTo = (theme === 'light' ? 'dark' : 'light');
+    const switchTo = (theme === 'dark' ? 'light' : 'dark');
     setTheme(switchTo);
   }
 
