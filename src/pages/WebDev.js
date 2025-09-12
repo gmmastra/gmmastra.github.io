@@ -283,7 +283,7 @@ export function WebDev(props) {
                                                     <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="noreferrer" className="link"> POKEMON</a>.
                                                     The site was created in REACT utilizing the MUI library, with a focus on responsive web design. This project focused 
                                                     on fetching and displaying data using AXIOS for HTTP requests from the 
-                                                    <a href="https://pokeapi.co/" target="_blank" rel="noreferrer" className="link">POKEAPI</a> endpoints.
+                                                    <a href="https://pokeapi.co/" target="_blank" rel="noreferrer" className="link"> POKEAPI</a> endpoints.
                                                 </span>
                                             </div>
                                             <br />
