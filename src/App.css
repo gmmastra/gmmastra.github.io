@@ -120,6 +120,10 @@ button {
   padding: 20px;
 }
 
+.gallery-img {
+  border: 1px solid var(--text-primary);
+}
+
 .webdev-row {
   display: flex;
   justify-content: center;
@@ -127,6 +131,10 @@ button {
   margin: 40px 0 40px 0;
   flex-wrap: wrap;
   word-wrap: break-word;
+}
+
+.webdev-row img, .game-row img {
+  border: 1px solid var(--text-primary);
 }
 
 .game-row {

@@ -10,7 +10,7 @@ export function ArtGallery(props) {
         objectFit: 'cover',
         width: props.width,
         height: props.height,
-        borderRadius: '10px',
+        borderRadius: '5px',
         margin: '10px'
     }
 
@@ -36,9 +36,10 @@ export function ArtGallery(props) {
                                 {({ ref, open }) => (
                                     <img
                                         style={smallItemStyles}
+                                        className='gallery-img'
                                         src={image.thumbnail}
                                         ref={ref}
-                                        alt={ref}
+                                        alt=''
                                         onClick={open}
                                     />
                                 )}

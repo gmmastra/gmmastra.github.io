@@ -145,6 +145,27 @@ const enviroatlas = [
         height: 772
     }]
 
+// Trainer card maker gallery links
+const trainercard = [
+    {
+        src: "https://i.imgur.com/PmQKDE5.png",
+        thumbnail: "https://i.imgur.com/PmQKDE5.png",
+        width: 1196,
+        height: 1245
+    },
+    {
+        src: "https://i.imgur.com/w2WNKqy.png",
+        thumbnail: "https://i.imgur.com/w2WNKqy.png",
+        width: 567,
+        height: 931
+    },
+    {
+        src: "https://i.imgur.com/8fQlRvh.png",
+        thumbnail: "https://i.imgur.com/8fQlRvh.png",
+        width: 1492,
+        height: 879
+    }]
+
 // Pokedex gallery links
 const pokedex = [
     {
@@ -211,8 +232,8 @@ export function WebDev(props) {
                                 },
                             }}
                             sx={{ borderRight: { xs: 0, md: 1 }, borderBottom: { xs: 1, md: 0 }, padding: { xs: '20px 0px 0px 0px', md: '50px 0px 0px 10px' }, height: { xs: 0, md: '80vh' } }}>
-                            <StyledTab label="WORK & SCHOOL" {...a11yProps(0)} />
-                            <StyledTab label="PERSONAL" {...a11yProps(1)} />
+                            <StyledTab label="PERSONAL" {...a11yProps(0)} />
+                            <StyledTab label="WORK & SCHOOL" {...a11yProps(1)} />
                         </Tabs>
                     </Slide>
                 </Box>
@@ -221,8 +242,90 @@ export function WebDev(props) {
                 <Box sx={{ flexGrow: 1, height: '90vh', overflowY: 'auto', width: { xs: 'auto', md: '70vw' } }} >
                     <Box sx={{ height: '90vh', width: { xs: '100%', md: '100%' }, marginLeft: 'auto', marginRight: 'auto' }} >
 
-                        {/* WORK & SCHOOL */}
+                        {/* PERSONAL */}
                         <TabPanel value={value} index={0} class="theme-force sidebar-item">
+                            <Grow in={true} timeout={600} mountOnEnter unmountOnExit>
+                                <div>
+
+                                    {/* TRAINER CARD MAKER */}
+                                    <Box class="webdev-row">
+                                        <img src="https://i.imgur.com/at1Su0g.png" width="300px" height='200px' alt="pokedex" />
+                                        <Box sx={{ width: { xs: '70%', md: '50%' }, marginRight: '10%', textAlign: 'left' }}>
+                                            <h1 className='subheading'>TRAINER CARD MAKER</h1>
+                                            <p className='year'>2025</p>
+                                            <div className="box-entry">
+                                                <span>
+                                                    The TRAINER CARD MAKER is an interactive site to assist in making custom, downloadable trainer cards for
+                                                    <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="noreferrer" className="link"> POKEMON</a>.
+                                                    The site was created in REACT, utilizing the html-to-image library for it's image saving functionality.
+                                                    This project was an exercise in various input fields, including searchable and rearrangable lists, modal sprite selections, 
+                                                    and variable-dependent drop-down menus.
+                                                </span>
+                                            </div>
+                                            <br />
+                                            <Button class="game-button" href="https://gmmastra.github.io/trainer-card-maker/" target="_blank">
+                                                GO NOW
+                                            </Button>
+                                        </Box>
+                                    </Box>
+                                    <div style={{ margin: '0 auto 80px auto' }}>
+                                        <ArtGallery images={trainercard} width={220} height={220} caption={true} />
+                                    </div>
+
+                                    {/* 8-BIT POKEDEX */}
+                                    <Box class="webdev-row">
+                                        <Box sx={{ width: { xs: '70%', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
+                                            <h1 className='subheading'>8-BIT POKEDEX</h1>
+                                            <p className='year'>2023</p>
+                                            <div className="box-entry">
+                                                <span>
+                                                    The 8-BIT POKEDEX is an interactive database on
+                                                    <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="noreferrer" className="link"> POKEMON</a>.
+                                                    The site was created in REACT utilizing the MUI library, with a focus on responsive web design. This project focused 
+                                                    on fetching and displaying data using AXIOS for HTTP requests from the 
+                                                    <a href="https://pokeapi.co/" target="_blank" rel="noreferrer" className="link">POKEAPI</a> endpoints.
+                                                </span>
+                                            </div>
+                                            <br />
+                                            <Button class="game-button" href="https://gmmastra.github.io/8-bit-pokedex/" target="_blank">
+                                                GO NOW
+                                            </Button>
+                                        </Box>
+                                        <img src="https://i.imgur.com/0BD2jAM.png" width="300px" alt="pokedex" />
+                                    </Box>
+                                    <div style={{ margin: '0 auto 80px auto' }}>
+                                        <ArtGallery images={pokedex} width={220} height={220} caption={true} />
+                                    </div>
+
+                                    {/* TOYHOUSE */}
+                                    <Box class="webdev-row">
+                                        <img src="https://i.imgur.com/kyeRgNt.png" width="300px" alt="DataGenius" />
+                                        <Box sx={{ width: { xs: '70%', md: '50%' }, marginRight: '10%', textAlign: 'left' }}>
+                                            <h1 className='subheading'>TOYHOU.SE LAYOUTS</h1>
+                                            <p className='year'>2023</p>
+                                            <div className="box-entry">
+                                                <span>
+                                                    Toyhouse (styled as Toyhou.se) is a website that allows users to create character profiles
+                                                    and worlds using HTML and CSS. The below templates were created utilizing Bootstrap and
+                                                    (unfortunately) inline CSS under strict site restrictions.
+                                                </span>
+                                            </div>
+                                            <br />
+                                            <Button class="game-button" href="https://github.com/gmmastra/profile-templates" target="_blank">
+                                                GO NOW
+                                            </Button>
+                                        </Box>
+                                    </Box>
+                                    <Box sx={{ margin: '0 auto 80px auto' }}>
+                                        <ArtGallery images={toyhouse} width={220} height={220} caption={true} />
+                                    </Box>
+
+                                </div>
+                            </Grow >
+                        </TabPanel>
+
+                        {/* WORK & SCHOOL */}
+                        <TabPanel value={value} index={1} class="theme-force sidebar-item">
                             <Grow in={true} timeout={600} mountOnEnter unmountOnExit>
                                 <div>
 
@@ -302,61 +405,6 @@ export function WebDev(props) {
                                     <div style={{ margin: '0 auto 80px auto' }}>
                                         <ArtGallery images={enviroatlas} width={220} height={220} caption={true} />
                                     </div>
-
-                                </div>
-                            </Grow >
-                        </TabPanel>
-
-                        {/* PERSONAL */}
-                        <TabPanel value={value} index={1} class="theme-force sidebar-item">
-                            <Grow in={true} timeout={600} mountOnEnter unmountOnExit>
-                                <div>
-
-                                    {/* 8-BIT POKEDEX */}
-                                    <Box class="webdev-row">
-                                        <img src="https://i.imgur.com/0BD2jAM.png" width="300px" alt="pokedex" />
-                                        <Box sx={{ width: { xs: '70%', md: '50%' }, marginRight: '10%', textAlign: 'left' }}>
-                                            <h1 className='subheading'>8-BIT POKEDEX</h1>
-                                            <p className='year'>2023</p>
-                                            <div className="box-entry">
-                                                <span>
-                                                    The 8-BIT POKEDEX is an interactive database on
-                                                    <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank" rel="noreferrer" className="link"> POKEMON</a>.
-                                                    The site was created in REACT utilizing the MUI library, with a focus on responsive web design.
-                                                </span>
-                                            </div>
-                                            <br />
-                                            <Button class="game-button" href="https://gmmastra.github.io/8-bit-pokedex/" target="_blank">
-                                                GO NOW
-                                            </Button>
-                                        </Box>
-                                    </Box>
-                                    <div style={{ margin: '0 auto 80px auto' }}>
-                                        <ArtGallery images={pokedex} width={220} height={220} caption={true} />
-                                    </div>
-
-                                    {/* TOYHOUSE */}
-                                    <Box class="webdev-row">
-                                        <Box sx={{ width: { xs: '70%', md: '50%' }, marginLeft: '10%', textAlign: 'right' }}>
-                                            <h1 className='subheading'>TOYHOU.SE LAYOUTS</h1>
-                                            <p className='year'>2024</p>
-                                            <div className="box-entry">
-                                                <span>
-                                                    Toyhouse (styled as Toyhou.se) is a website that allows users to create character profiles
-                                                    and worlds using HTML and CSS. The below templates were created utilizing Bootstrap and
-                                                    (unfortunately) inline CSS under strict site restrictions.
-                                                </span>
-                                            </div>
-                                            <br />
-                                            <Button class="game-button" href="https://github.com/gmmastra/profile-templates" target="_blank">
-                                                GO NOW
-                                            </Button>
-                                        </Box>
-                                        <img src="https://i.imgur.com/kyeRgNt.png" width="300px" alt="DataGenius" />
-                                    </Box>
-                                    <Box sx={{ margin: '0 auto 80px auto' }}>
-                                        <ArtGallery images={toyhouse} width={220} height={220} caption={true} />
-                                    </Box>
 
                                 </div>
                             </Grow >
