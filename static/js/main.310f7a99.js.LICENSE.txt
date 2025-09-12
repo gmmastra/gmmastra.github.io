@@ -1,6 +1,6 @@
 /*!
-  * PhotoSwipe 5.3.0 - https://photoswipe.com
-  * (c) 2022 Dmytro Semenov
+  * PhotoSwipe 5.4.4 - https://photoswipe.com
+  * (c) 2024 Dmytro Semenov
   */
 
 /**
