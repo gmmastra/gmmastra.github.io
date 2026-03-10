@@ -125,6 +125,12 @@ const gallery =
         width: 1264,
         height: 1792,
     },
+        {
+        src: "https://i.imgur.com/PIsFLTw.png",
+        thumbnail: "https://i.imgur.com/PC56RQI.png",
+        width: 1783,
+        height: 2862,
+    },
     {
         src: "https://i.imgur.com/1mww54a.jpeg",
         thumbnail: "https://i.imgur.com/1mww54am.jpeg",
@@ -161,11 +167,18 @@ const gallery =
         width: 1853,
         height: 2321,
     },
+    
     {
         src: "https://i.imgur.com/8czOc7k.jpg",
         thumbnail: "https://i.imgur.com/8czOc7k.jpg",
         width: 1664,
         height: 2259,
+    },
+        {
+        src: "https://i.imgur.com/x9eYmzM.png",
+        thumbnail: "https://i.imgur.com/13BzMZa.png",
+        width: 2333,
+        height: 4048,
     },
     {
         src: "https://i.imgur.com/1yrbj6f.jpg",
@@ -205,12 +218,6 @@ const gallery =
 
     },
     {
-        src: "https://i.imgur.com/XmpIKUy.jpg",
-        thumbnail: "https://i.imgur.com/XmpIKUym.jpg",
-        width: 2109,
-        height: 3207,
-    },
-    {
         src: "https://i.imgur.com/stoNWX9.jpg",
         thumbnail: "https://i.imgur.com/stoNWX9m.jpg",
         width: 3864,
@@ -227,12 +234,6 @@ const gallery =
         thumbnail: "https://i.imgur.com/FyHAz0Tl.png",
         width: 1180,
         height: 1494,
-    },
-    {
-        src: "https://i.imgur.com/ACTYZqI.jpg",
-        thumbnail: "https://i.imgur.com/ACTYZqIm.jpg",
-        width: 894,
-        height: 1080,
     },
     {
         src: "https://i.imgur.com/b5AFuqc.jpg",

@@ -58,10 +58,10 @@ export function Home(props) {
             height: 3375,
         },
         {
-            src: "https://i.imgur.com/9Ion1Pt.png",
-            thumbnail: "https://i.imgur.com/9Ion1Ptm.png",
-            width: 1853,
-            height: 2321,
+            src: "https://i.imgur.com/OwyA6uA.png",
+            thumbnail: "https://i.imgur.com/OwyA6uAm.png",
+            width: 3481,
+            height: 2396,
         },
         {
             src: "https://i.imgur.com/Momqk4F.jpeg",
