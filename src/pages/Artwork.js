@@ -54,6 +54,18 @@ const StyledTab = styled((props) => (
 
 const gallery =
     [{
+        src: "https://i.imgur.com/xyK2ird.png",
+        thumbnail: "https://i.imgur.com/xyK2irdm.png",
+        width: 1770,
+        height: 1483,
+    },
+    {
+        src: "https://i.imgur.com/qQS2F0s.jpeg",
+        thumbnail: "https://i.imgur.com/qQS2F0sm.jpeg",
+        width: 2500,
+        height: 3438,
+    },
+    {
         src: "https://i.imgur.com/8Tc7qVk.jpeg",
         thumbnail: "https://i.imgur.com/8Tc7qVkm.jpeg",
         width: 4242,
@@ -505,13 +517,6 @@ const artfight =
         width: 1289,
         height: 1301,
         caption: "Character by @MinutesByMars"
-    },
-    {
-        src: "https://i.imgur.com/cYfUogT.png",
-        thumbnail: "https://i.imgur.com/QwOIj65.png",
-        width: 1419,
-        height: 1532,
-        caption: "Character by @Brightness_"
     }]
 
 

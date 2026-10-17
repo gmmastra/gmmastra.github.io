@@ -56,7 +56,7 @@ export function GameDev(props) {
 
                     {/* ASTEROIDS */}
                     <Box class="game-row">
-                        <img src="https://i.imgur.com/ep2NFiw.png" width="300px" alt="asteroids"></img>
+                        <img src="https://i.imgur.com/L5i7D5n.png" width="300px" alt="asteroids"></img>
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginRight: '10%' }}>
                             <h1 className='subheading'>ASTEROIDS</h1>
                             <p className='year'>2021</p>
@@ -93,7 +93,7 @@ export function GameDev(props) {
 
                     {/* HIDE */}
                     <Box class="game-row">
-                        <img src="https://i.imgur.com/wVw8WhJ.png" width="300px" alt="hide"></img>
+                        <img src="https://i.imgur.com/QS86Fi6.png" width="300px" alt="hide"></img>
                         <Box sx={{ width: { xs: 'auto', md: '50%' }, marginRight: '10%' }}>
                             <h1 className='subheading'>HIDE</h1>
                             <p className='year'>2021</p>
